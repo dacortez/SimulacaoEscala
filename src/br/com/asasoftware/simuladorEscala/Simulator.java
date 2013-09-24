@@ -1,8 +1,5 @@
 package br.com.asasoftware.simuladorEscala;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.PrintStream;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -16,50 +13,65 @@ public class Simulator {
 	private final static int MAX_JOB_SIZE = 2300;
 	private final static int MEAN_JOB_SIZE = 1200;
 	private final static int STDV_JOB_SIZE = 350;
-	private final static double REJECTION_PROBALITY = 0.25;
+	private int totalJobs;
+	private int totalMachines;
+	private char kind;
+	private double rejectionProbability;
 	private List<Job> jobs;
 	private PriorityQueue<Machine> machines;
 	
-	public static void main(String[] args) {
-		int totalJobs, totalMachines;
-		char kind;
-		if (args.length == 3) {
-			totalJobs = Integer.parseInt(args[0]);
-			totalMachines = Integer.parseInt(args[1]);
-			kind = args[2].charAt(0);
-		} else {
-			totalJobs = 10000;
-			totalMachines = 1000;
-			kind = 'N';
-		}
-		simulate(totalJobs, totalMachines, kind);
+	public int getTotalJobs() {
+		return totalJobs;
 	}
 
-	private static void simulate(int totalJobs, int totalMachines, char kind) {
-		for (int i = 1; i <= 1; i++) {
-			Simulator sim = new Simulator();
-			sim.setJobs(totalJobs, kind);
-			sim.setMachines(totalMachines);
-			try {
-				sim.doAssingnments();
-				//sim.printSolution(null);
-				//sim.printSolution(null);
-				sim.printStats(null);
-				//sim.printJobsLengths(null);
-				sim.printMachinesOccupations(null);
-			} catch (Exception e) {
-				System.out.println(e.getMessage());
-			}
-		}
+	public void setTotalJobs(int totalJobs) {
+		this.totalJobs = totalJobs;
+	}
+
+	public int getTotalMachines() {
+		return totalMachines;
+	}
+
+	public void setTotalMachines(int totalMachines) {
+		this.totalMachines = totalMachines;
+	}
+
+	public char getKind() {
+		return kind;
+	}
+
+	public void setKind(char kind) {
+		this.kind = kind;
 	}
 	
-	public void setJobs(int totalJobs, char kind) {
+	public double getRejectionProbability() {
+		return rejectionProbability;
+	}
+
+	public void setRejectionProbability(double rejectionProbability) {
+		this.rejectionProbability = rejectionProbability;
+	}
+	
+	public Simulator(int totalJobs, int totalMachines, char kind, double rejectionProbability) {
+		this.totalJobs = totalJobs;
+		this.totalMachines = totalMachines;
+		this.kind = kind;
+		this.rejectionProbability = rejectionProbability;
+	}
+	
+	public void simulate() throws Exception {
+		setJobs();
+		setMachines();
+		doAssingnments();
+	}
+
+	private void setJobs() {
 		jobs = new ArrayList<Job>();
 		for (int i = 1; i <= totalJobs; i++)
-			jobs.add(new Job(i, getJobLength(kind)));
+			jobs.add(new Job(i, getJobLength()));
 	}
 	
-	private int getJobLength(char kind) {
+	private int getJobLength() {
 		Random r = new Random();
 		switch (kind) {
 		case 'U':
@@ -73,7 +85,7 @@ public class Simulator {
 		return MIN_JOB_SIZE;
 	}
 	
-	public void setMachines(int totalMachines) {
+	private void setMachines() {
 		setupQueue(totalMachines);
 		List<Integer> ids = getIdsList(totalMachines);
 		Random r = new Random();
@@ -99,13 +111,13 @@ public class Simulator {
 		return ids;
 	}
 	
-	public void doAssingnments() throws Exception {
+	private void doAssingnments() throws Exception {
 		Random r = new Random();
 		List<Machine> rejectedMachines = new ArrayList<Machine>();
 		sortJobs();	
 		for (Job job: jobs) {
 			Machine machine = machines.poll();
-			while (r.nextDouble() < REJECTION_PROBALITY) {
+			while (r.nextDouble() < rejectionProbability) {
 				rejectedMachines.add(machine);
 				machine = machines.poll();
 				if (machine == null)
@@ -127,17 +139,38 @@ public class Simulator {
 	}
 	
 	public void printSolution(String file) {
-		PrintStream ps  = getPrintStream(file);
-		ps.println("Total jobs = " + jobs.size());
+		System.out.println("Total jobs = " + jobs.size());
 		for (Job job: jobs)
-			ps.println(job);
-		ps.println("Total machines = " + machines.size());
+			System.out.println(job);
+		System.out.println("Total machines = " + machines.size());
 		for (Machine machine: machines)
-			ps.println(machine);
-		ps.close();
+			System.out.println(machine);
 	}
 	
-	public void printMachinesQueue() {
+	public void printJobsLengths(String file) {
+		System.out.println("len");
+		for (Job job: jobs)
+			System.out.println(job.getLength());
+	}
+
+	public void printMachinesOccupations(String file) {
+		List<Machine> sortedMachines = getMachinesSortedById();
+		System.out.println("ocp");
+		for (Machine machine: sortedMachines)
+			System.out.println(machine.getOccupation());
+	}
+	
+	private List<Machine> getMachinesSortedById() {
+		List<Machine> list = new ArrayList<Machine>(machines);
+		Collections.sort(list, new Comparator<Machine>() {  
+            public int compare(Machine m1, Machine m2) {
+            	return m1.getId() < m2.getId() ? -1 : 1;
+            }  
+        });
+		return list;
+	}
+	
+	public void printMachinesQueue(String file) {
 		System.out.println("---------------------------------");
 		for (Machine m: machines)
 			System.out.println(m);
@@ -145,23 +178,45 @@ public class Simulator {
 	}
 	
 	public void printStats(String file) {
-		PrintStream ps  = getPrintStream(file);
-		int m = jobs.size();
-		int n = machines.size();
-		int[] lengths = getJobsLengths();
-		int[] occupations = getMachinesOccupations();
-		int min = machines.element().getOccupation();
+		int min = getMinOccupation();
 		int max = getMaxOccupation();
-		double meanLength = getMean(lengths);
-		double stdevLength = getStdev(meanLength, lengths);
-		double meanOccupation = getMean(occupations);
-		double stdevOccupation = getStdev(meanOccupation, occupations);
-		double percent = 100.0 * stdevOccupation / meanOccupation;
+		double meanLength = getMeanLength();
+		double stdevLength = getStdevLength();
+		double meanOccupation = getMeanOccupation();
+		double stdevOccupation = getStdevOccupation();
+		double var = getVarOccupation();
 		DecimalFormat df = new DecimalFormat("0.000");
-		ps.println(m + " " + n + " " 
+		System.out.println(totalJobs + " " + totalMachines + " " 
 			+ df.format(meanLength) + " " + df.format(stdevLength) + " " 
 			+ df.format(meanOccupation) + " " + df.format(stdevOccupation) + " " 
-			+ df.format(percent) + " " + min + " " + max);
+			+ df.format(var) + " " + min + " " + max);
+	}
+	
+	public double getStdevLength() {
+		int[] jobsLengths = getJobsLengths();
+		double meanLength = Stats.getMean(jobsLengths);
+		return Stats.getStdev(meanLength, jobsLengths);
+	}
+	
+	public double getMeanLength() {
+		return Stats.getMean(getJobsLengths());
+	}
+	
+	public double getStdevOccupation() {
+		int[] machinesOccupations = getMachinesOccupations();
+		double meanOccupation = Stats.getMean(machinesOccupations);
+		return Stats.getStdev(meanOccupation, machinesOccupations);
+	}
+	
+	public double getMeanOccupation() {
+		return Stats.getMean(getMachinesOccupations());
+	}
+	
+	public double getVarOccupation() {
+		int[] machinesOccupations = getMachinesOccupations();
+		double meanOccupation = Stats.getMean(machinesOccupations);
+		double stdvOccupation = Stats.getStdev(meanOccupation, machinesOccupations);
+		return 100.0 * stdvOccupation / meanOccupation;
 	}
 
 	private int[] getJobsLengths() {
@@ -180,59 +235,15 @@ public class Simulator {
 		return occupations;
 	}
 	
+	private int getMinOccupation() {
+		return machines.element().getOccupation();
+	}
+	
 	private int getMaxOccupation() {
 		int max = -1;
 		for (Machine machine: machines)
 			if (machine.getOccupation() > max) 
 				max = machine.getOccupation();
 		return max;
-	}
-	
-	private double getMean(int[] x) {
-		double sum = 0.0;
-		for (int xi: x)
-			sum += (double) xi;
-		return sum / x.length;
-	}
-	
-	private double getStdev(double xMean, int[] x) {
-		double sum = 0.0;
-		for (int xi: x)
-			sum += (double) (xi - xMean) * (xi - xMean);
-		return Math.sqrt(sum / x.length);
-	}
-	
-	public void printJobsLengths(String file) {
-		PrintStream ps  = getPrintStream(file);
-		ps.println("len");
-		for (Job job: jobs)
-			ps.println(job.getLength());
-	}
-
-	public void printMachinesOccupations(String file) {
-		PrintStream ps  = getPrintStream(file);
-		List<Machine> sortedMachines = getMachinesSortedById();
-		ps.println("ocp");
-		for (Machine machine: sortedMachines)
-			ps.println(machine.getOccupation());
-	}
-	
-	private List<Machine> getMachinesSortedById() {
-		List<Machine> list = new ArrayList<Machine>(machines);
-		Collections.sort(list, new Comparator<Machine>() {  
-            public int compare(Machine m1, Machine m2) {
-            	return m1.getId() < m2.getId() ? -1 : 1;
-            }  
-        });
-		return list;
-	}
-	
-	private PrintStream getPrintStream(String file) {
-		if (file == null) return System.out;
-		try {
-			return new PrintStream(new File(file));
-		} catch (FileNotFoundException e) {
-			return System.out;
-		}
 	}
 }

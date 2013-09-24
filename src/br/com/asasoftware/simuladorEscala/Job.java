@@ -3,8 +3,7 @@ package br.com.asasoftware.simuladorEscala;
 public class Job {
 	private int id;
 	private int length;
-	private Machine assignedMachine;
-
+	
 	public int getId() {
 		return id;
 	}
@@ -21,22 +20,9 @@ public class Job {
 		this.length = length;
 	}
 	
-	public Machine getAssignedMachine() {
-		return assignedMachine;
-	}
-
-	public void setAssignedMachine(Machine assignedMachine) {
-		this.assignedMachine = assignedMachine;
-	}
-
 	public Job(int id, int length) {
 		this.id = id;
 		this.length = length;
-		assignedMachine = null;
-	}
-	
-	public boolean isAssigned() {
-		return (assignedMachine != null);
 	}
 	
 	@Override
