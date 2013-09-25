@@ -138,7 +138,7 @@ public class Simulator {
         });
 	}
 	
-	public void printSolution(String file) {
+	public void printSolution() {
 		System.out.println("Total jobs = " + jobs.size());
 		for (Job job: jobs)
 			System.out.println(job);
@@ -147,13 +147,13 @@ public class Simulator {
 			System.out.println(machine);
 	}
 	
-	public void printJobsLengths(String file) {
+	public void printJobsLength() {
 		System.out.println("len");
 		for (Job job: jobs)
 			System.out.println(job.getLength());
 	}
 
-	public void printMachinesOccupations(String file) {
+	public void printMachinesOccupation() {
 		List<Machine> sortedMachines = getMachinesSortedById();
 		System.out.println("ocp");
 		for (Machine machine: sortedMachines)
@@ -170,14 +170,14 @@ public class Simulator {
 		return list;
 	}
 	
-	public void printMachinesQueue(String file) {
+	public void printMachinesQueue() {
 		System.out.println("---------------------------------");
 		for (Machine m: machines)
 			System.out.println(m);
 		System.out.println("---------------------------------");
 	}
 	
-	public void printStats(String file) {
+	public void printStats() {
 		int min = getMinOccupation();
 		int max = getMaxOccupation();
 		double meanLength = getMeanLength();

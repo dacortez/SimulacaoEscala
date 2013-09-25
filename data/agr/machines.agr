@@ -1,0 +1,5049 @@
+# Grace project file
+#
+@version 50122
+@page size 792, 612
+@page scroll 5%
+@page inout 5%
+@link page off
+@map font 0 to "Times-Roman", "Times-Roman"
+@map font 1 to "Times-Italic", "Times-Italic"
+@map font 2 to "Times-Bold", "Times-Bold"
+@map font 3 to "Times-BoldItalic", "Times-BoldItalic"
+@map font 4 to "Helvetica", "Helvetica"
+@map font 5 to "Helvetica-Oblique", "Helvetica-Oblique"
+@map font 6 to "Helvetica-Bold", "Helvetica-Bold"
+@map font 7 to "Helvetica-BoldOblique", "Helvetica-BoldOblique"
+@map font 8 to "Courier", "Courier"
+@map font 9 to "Courier-Oblique", "Courier-Oblique"
+@map font 10 to "Courier-Bold", "Courier-Bold"
+@map font 11 to "Courier-BoldOblique", "Courier-BoldOblique"
+@map font 12 to "Symbol", "Symbol"
+@map font 13 to "ZapfDingbats", "ZapfDingbats"
+@map color 0 to (255, 255, 255), "white"
+@map color 1 to (0, 0, 0), "black"
+@map color 2 to (255, 0, 0), "red"
+@map color 3 to (0, 255, 0), "green"
+@map color 4 to (0, 0, 255), "blue"
+@map color 5 to (255, 255, 0), "yellow"
+@map color 6 to (188, 143, 143), "brown"
+@map color 7 to (220, 220, 220), "grey"
+@map color 8 to (148, 0, 211), "violet"
+@map color 9 to (0, 255, 255), "cyan"
+@map color 10 to (255, 0, 255), "magenta"
+@map color 11 to (255, 165, 0), "orange"
+@map color 12 to (114, 33, 188), "indigo"
+@map color 13 to (103, 7, 72), "maroon"
+@map color 14 to (64, 224, 208), "turquoise"
+@map color 15 to (0, 139, 0), "green4"
+@reference date 0
+@date wrap off
+@date wrap year 1950
+@default linewidth 1.0
+@default linestyle 1
+@default color 1
+@default pattern 1
+@default font 0
+@default char size 1.000000
+@default symbol size 1.000000
+@default sformat "%.8g"
+@background color 0
+@page background fill on
+@timestamp off
+@timestamp 0.03, 0.03
+@timestamp color 1
+@timestamp rot 0
+@timestamp font 0
+@timestamp char size 1.000000
+@timestamp def "Tue Sep 24 16:09:29 2013"
+@with string
+@    string on
+@    string loctype view
+@    string 0.149509803922, 0.863970588235
+@    string color 1
+@    string rot 0
+@    string font 0
+@    string just 0
+@    string char size 1.000000
+@    string def "Rejei\#{e7}\#{e3}o = 0.00"
+@with string
+@    string on
+@    string loctype view
+@    string 0.464460784314, 0.917892156863
+@    string color 1
+@    string rot 0
+@    string font 0
+@    string just 0
+@    string char size 1.300000
+@    string def "Ocupa\#{e7}\#{e3}o das M\#{e1}quinas"
+@with string
+@    string on
+@    string loctype view
+@    string 0.669117647059, 0.863970588236
+@    string color 1
+@    string rot 0
+@    string font 0
+@    string just 0
+@    string char size 1.000000
+@    string def "Rejei\#{e7}\#{e3}o = 0.95"
+@with string
+@    string on
+@    string loctype view
+@    string 0.149509803922, 0.480392156863
+@    string color 1
+@    string rot 0
+@    string font 0
+@    string just 0
+@    string char size 1.000000
+@    string def "Rejei\#{e7}\#{e3}o = 0.00"
+@with string
+@    string on
+@    string loctype view
+@    string 0.670343137255, 0.481617647059
+@    string color 1
+@    string rot 0
+@    string font 0
+@    string just 0
+@    string char size 1.000000
+@    string def "Rejei\#{e7}\#{e3}o = 0.95"
+@with string
+@    string on
+@    string loctype view
+@    string 0.517156862745, 0.860294117648
+@    string color 1
+@    string rot 0
+@    string font 0
+@    string just 0
+@    string char size 1.000000
+@    string def "Uniforme"
+@with string
+@    string on
+@    string loctype view
+@    string 1.03799019608, 0.861519607844
+@    string color 1
+@    string rot 0
+@    string font 0
+@    string just 0
+@    string char size 1.000000
+@    string def "Uniforme"
+@with string
+@    string on
+@    string loctype view
+@    string 0.537990196078, 0.479166666667
+@    string color 1
+@    string rot 0
+@    string font 0
+@    string just 0
+@    string char size 1.000000
+@    string def "Normal"
+@with string
+@    string on
+@    string loctype view
+@    string 1.05882352941, 0.476715686275
+@    string color 1
+@    string rot 0
+@    string font 0
+@    string just 0
+@    string char size 1.000000
+@    string def "Normal"
+@with string
+@    string on
+@    string loctype view
+@    string 0.414215686275, 0.577205882353
+@    string color 1
+@    string rot 0
+@    string font 0
+@    string just 0
+@    string char size 0.750000
+@    string def "Dispers\#{e3}o = 0.04%"
+@with string
+@    string on
+@    string loctype view
+@    string 0.962009803922, 0.59068627451
+@    string color 1
+@    string rot 0
+@    string font 0
+@    string just 0
+@    string char size 0.750000
+@    string def "Dispers\#{e3}o = 0.20%"
+@with string
+@    string on
+@    string loctype view
+@    string 0.420343137255, 0.183823529412
+@    string color 1
+@    string rot 0
+@    string font 0
+@    string just 0
+@    string char size 0.750000
+@    string def "Dispers\#{e3}o = 1.04%"
+@with string
+@    string on
+@    string loctype view
+@    string 0.963235294118, 0.182598039216
+@    string color 1
+@    string rot 0
+@    string font 0
+@    string just 0
+@    string char size 0.750000
+@    string def "Dispers\#{e3}o = 1.00%"
+@r0 off
+@link r0 to g0
+@r0 type above
+@r0 linestyle 1
+@r0 linewidth 1.0
+@r0 color 1
+@r0 line 0, 0, 0, 0
+@r1 off
+@link r1 to g0
+@r1 type above
+@r1 linestyle 1
+@r1 linewidth 1.0
+@r1 color 1
+@r1 line 0, 0, 0, 0
+@r2 off
+@link r2 to g0
+@r2 type above
+@r2 linestyle 1
+@r2 linewidth 1.0
+@r2 color 1
+@r2 line 0, 0, 0, 0
+@r3 off
+@link r3 to g0
+@r3 type above
+@r3 linestyle 1
+@r3 linewidth 1.0
+@r3 color 1
+@r3 line 0, 0, 0, 0
+@r4 off
+@link r4 to g0
+@r4 type above
+@r4 linestyle 1
+@r4 linewidth 1.0
+@r4 color 1
+@r4 line 0, 0, 0, 0
+@g0 on
+@g0 hidden false
+@g0 type XY
+@g0 stacked false
+@g0 bar hgap 0.000000
+@g0 fixedpoint off
+@g0 fixedpoint type 0
+@g0 fixedpoint xy 0.000000, 0.000000
+@g0 fixedpoint format general general
+@g0 fixedpoint prec 6, 6
+@with g0
+@    world 0, 12400, 1000, 12700
+@    stack world 0, 0, 0, 0
+@    znorm 1
+@    view 0.150000, 0.531818, 0.623389, 0.850000
+@    title ""
+@    title font 0
+@    title size 1.500000
+@    title color 1
+@    subtitle ""
+@    subtitle font 0
+@    subtitle size 1.000000
+@    subtitle color 1
+@    xaxes scale Normal
+@    yaxes scale Normal
+@    xaxes invert off
+@    yaxes invert off
+@    xaxis  on
+@    xaxis  type zero false
+@    xaxis  offset 0.000000 , 0.000000
+@    xaxis  bar on
+@    xaxis  bar color 1
+@    xaxis  bar linestyle 1
+@    xaxis  bar linewidth 1.0
+@    xaxis  label ""
+@    xaxis  label layout para
+@    xaxis  label place auto
+@    xaxis  label char size 1.000000
+@    xaxis  label font 0
+@    xaxis  label color 1
+@    xaxis  label place normal
+@    xaxis  tick on
+@    xaxis  tick major 200
+@    xaxis  tick minor ticks 1
+@    xaxis  tick default 6
+@    xaxis  tick place rounded true
+@    xaxis  tick in
+@    xaxis  tick major size 1.000000
+@    xaxis  tick major color 1
+@    xaxis  tick major linewidth 1.0
+@    xaxis  tick major linestyle 1
+@    xaxis  tick major grid off
+@    xaxis  tick minor color 1
+@    xaxis  tick minor linewidth 1.0
+@    xaxis  tick minor linestyle 1
+@    xaxis  tick minor grid off
+@    xaxis  tick minor size 0.500000
+@    xaxis  ticklabel on
+@    xaxis  ticklabel format general
+@    xaxis  ticklabel prec 5
+@    xaxis  ticklabel formula ""
+@    xaxis  ticklabel append ""
+@    xaxis  ticklabel prepend ""
+@    xaxis  ticklabel angle 0
+@    xaxis  ticklabel skip 0
+@    xaxis  ticklabel stagger 0
+@    xaxis  ticklabel place normal
+@    xaxis  ticklabel offset auto
+@    xaxis  ticklabel offset 0.000000 , 0.010000
+@    xaxis  ticklabel start type auto
+@    xaxis  ticklabel start 0.000000
+@    xaxis  ticklabel stop type auto
+@    xaxis  ticklabel stop 0.000000
+@    xaxis  ticklabel char size 0.000000
+@    xaxis  ticklabel font 0
+@    xaxis  ticklabel color 1
+@    xaxis  tick place both
+@    xaxis  tick spec type none
+@    yaxis  on
+@    yaxis  type zero false
+@    yaxis  offset 0.000000 , 0.000000
+@    yaxis  bar on
+@    yaxis  bar color 1
+@    yaxis  bar linestyle 1
+@    yaxis  bar linewidth 1.0
+@    yaxis  label "Minutos"
+@    yaxis  label layout para
+@    yaxis  label place spec
+@    yaxis  label place 0.000000, 0.100000
+@    yaxis  label char size 1.000000
+@    yaxis  label font 0
+@    yaxis  label color 1
+@    yaxis  label place normal
+@    yaxis  tick on
+@    yaxis  tick major 100
+@    yaxis  tick minor ticks 4
+@    yaxis  tick default 6
+@    yaxis  tick place rounded true
+@    yaxis  tick in
+@    yaxis  tick major size 1.000000
+@    yaxis  tick major color 1
+@    yaxis  tick major linewidth 1.0
+@    yaxis  tick major linestyle 1
+@    yaxis  tick major grid off
+@    yaxis  tick minor color 1
+@    yaxis  tick minor linewidth 1.0
+@    yaxis  tick minor linestyle 1
+@    yaxis  tick minor grid off
+@    yaxis  tick minor size 0.500000
+@    yaxis  ticklabel on
+@    yaxis  ticklabel format general
+@    yaxis  ticklabel prec 5
+@    yaxis  ticklabel formula ""
+@    yaxis  ticklabel append ""
+@    yaxis  ticklabel prepend ""
+@    yaxis  ticklabel angle 0
+@    yaxis  ticklabel skip 0
+@    yaxis  ticklabel stagger 0
+@    yaxis  ticklabel place normal
+@    yaxis  ticklabel offset auto
+@    yaxis  ticklabel offset 0.000000 , 0.010000
+@    yaxis  ticklabel start type auto
+@    yaxis  ticklabel start 0.000000
+@    yaxis  ticklabel stop type auto
+@    yaxis  ticklabel stop 0.000000
+@    yaxis  ticklabel char size 1.000000
+@    yaxis  ticklabel font 0
+@    yaxis  ticklabel color 1
+@    yaxis  tick place both
+@    yaxis  tick spec type none
+@    altxaxis  off
+@    altyaxis  off
+@    legend on
+@    legend loctype view
+@    legend 0.85, 0.8
+@    legend box color 1
+@    legend box pattern 1
+@    legend box linewidth 1.0
+@    legend box linestyle 1
+@    legend box fill color 0
+@    legend box fill pattern 1
+@    legend font 0
+@    legend char size 1.000000
+@    legend color 1
+@    legend length 4
+@    legend vgap 1
+@    legend hgap 1
+@    legend invert false
+@    frame type 0
+@    frame linestyle 1
+@    frame linewidth 1.0
+@    frame color 1
+@    frame pattern 1
+@    frame background color 0
+@    frame background pattern 0
+@    s0 hidden false
+@    s0 type xy
+@    s0 symbol 1
+@    s0 symbol size 0.250000
+@    s0 symbol color 2
+@    s0 symbol pattern 1
+@    s0 symbol fill color 2
+@    s0 symbol fill pattern 0
+@    s0 symbol linewidth 1.0
+@    s0 symbol linestyle 1
+@    s0 symbol char 65
+@    s0 symbol char font 0
+@    s0 symbol skip 0
+@    s0 line type 0
+@    s0 line linestyle 1
+@    s0 line linewidth 1.0
+@    s0 line color 1
+@    s0 line pattern 1
+@    s0 baseline type 0
+@    s0 baseline off
+@    s0 dropline off
+@    s0 fill type 0
+@    s0 fill rule 0
+@    s0 fill color 1
+@    s0 fill pattern 1
+@    s0 avalue off
+@    s0 avalue type 2
+@    s0 avalue char size 1.000000
+@    s0 avalue font 0
+@    s0 avalue color 1
+@    s0 avalue rot 0
+@    s0 avalue format general
+@    s0 avalue prec 3
+@    s0 avalue prepend ""
+@    s0 avalue append ""
+@    s0 avalue offset 0.000000 , 0.000000
+@    s0 errorbar on
+@    s0 errorbar place both
+@    s0 errorbar color 2
+@    s0 errorbar pattern 1
+@    s0 errorbar size 1.000000
+@    s0 errorbar linewidth 1.0
+@    s0 errorbar linestyle 1
+@    s0 errorbar riser linewidth 1.0
+@    s0 errorbar riser linestyle 1
+@    s0 errorbar riser clip off
+@    s0 errorbar riser clip length 0.100000
+@    s0 comment "machines_uniforme.dat"
+@    s0 legend  ""
+@g1 on
+@g1 hidden false
+@g1 type XY
+@g1 stacked false
+@g1 bar hgap 0.000000
+@g1 fixedpoint off
+@g1 fixedpoint type 0
+@g1 fixedpoint xy 0.000000, 0.000000
+@g1 fixedpoint format general general
+@g1 fixedpoint prec 6, 6
+@with g1
+@    world 0, 12400, 1000, 12700
+@    stack world 0, 0, 0, 0
+@    znorm 1
+@    view 0.670728, 0.531818, 1.144118, 0.850000
+@    title ""
+@    title font 0
+@    title size 1.500000
+@    title color 1
+@    subtitle ""
+@    subtitle font 0
+@    subtitle size 1.000000
+@    subtitle color 1
+@    xaxes scale Normal
+@    yaxes scale Normal
+@    xaxes invert off
+@    yaxes invert off
+@    xaxis  on
+@    xaxis  type zero false
+@    xaxis  offset 0.000000 , 0.000000
+@    xaxis  bar on
+@    xaxis  bar color 1
+@    xaxis  bar linestyle 1
+@    xaxis  bar linewidth 1.0
+@    xaxis  label ""
+@    xaxis  label layout para
+@    xaxis  label place auto
+@    xaxis  label char size 1.000000
+@    xaxis  label font 0
+@    xaxis  label color 1
+@    xaxis  label place normal
+@    xaxis  tick on
+@    xaxis  tick major 200
+@    xaxis  tick minor ticks 1
+@    xaxis  tick default 6
+@    xaxis  tick place rounded true
+@    xaxis  tick in
+@    xaxis  tick major size 1.000000
+@    xaxis  tick major color 1
+@    xaxis  tick major linewidth 1.0
+@    xaxis  tick major linestyle 1
+@    xaxis  tick major grid off
+@    xaxis  tick minor color 1
+@    xaxis  tick minor linewidth 1.0
+@    xaxis  tick minor linestyle 1
+@    xaxis  tick minor grid off
+@    xaxis  tick minor size 0.500000
+@    xaxis  ticklabel on
+@    xaxis  ticklabel format general
+@    xaxis  ticklabel prec 5
+@    xaxis  ticklabel formula ""
+@    xaxis  ticklabel append ""
+@    xaxis  ticklabel prepend ""
+@    xaxis  ticklabel angle 0
+@    xaxis  ticklabel skip 0
+@    xaxis  ticklabel stagger 0
+@    xaxis  ticklabel place normal
+@    xaxis  ticklabel offset auto
+@    xaxis  ticklabel offset 0.000000 , 0.010000
+@    xaxis  ticklabel start type auto
+@    xaxis  ticklabel start 0.000000
+@    xaxis  ticklabel stop type auto
+@    xaxis  ticklabel stop 0.000000
+@    xaxis  ticklabel char size 0.000000
+@    xaxis  ticklabel font 0
+@    xaxis  ticklabel color 1
+@    xaxis  tick place both
+@    xaxis  tick spec type none
+@    yaxis  on
+@    yaxis  type zero false
+@    yaxis  offset 0.000000 , 0.000000
+@    yaxis  bar on
+@    yaxis  bar color 1
+@    yaxis  bar linestyle 1
+@    yaxis  bar linewidth 1.0
+@    yaxis  label ""
+@    yaxis  label layout para
+@    yaxis  label place spec
+@    yaxis  label place 0.000000, 0.050000
+@    yaxis  label char size 1.000000
+@    yaxis  label font 0
+@    yaxis  label color 1
+@    yaxis  label place opposite
+@    yaxis  tick on
+@    yaxis  tick major 100
+@    yaxis  tick minor ticks 4
+@    yaxis  tick default 6
+@    yaxis  tick place rounded true
+@    yaxis  tick in
+@    yaxis  tick major size 1.000000
+@    yaxis  tick major color 1
+@    yaxis  tick major linewidth 1.0
+@    yaxis  tick major linestyle 1
+@    yaxis  tick major grid off
+@    yaxis  tick minor color 1
+@    yaxis  tick minor linewidth 1.0
+@    yaxis  tick minor linestyle 1
+@    yaxis  tick minor grid off
+@    yaxis  tick minor size 0.500000
+@    yaxis  ticklabel on
+@    yaxis  ticklabel format general
+@    yaxis  ticklabel prec 5
+@    yaxis  ticklabel formula ""
+@    yaxis  ticklabel append ""
+@    yaxis  ticklabel prepend ""
+@    yaxis  ticklabel angle 0
+@    yaxis  ticklabel skip 0
+@    yaxis  ticklabel stagger 0
+@    yaxis  ticklabel place normal
+@    yaxis  ticklabel offset auto
+@    yaxis  ticklabel offset 0.000000 , 0.010000
+@    yaxis  ticklabel start type auto
+@    yaxis  ticklabel start 0.000000
+@    yaxis  ticklabel stop type auto
+@    yaxis  ticklabel stop 0.000000
+@    yaxis  ticklabel char size 0.000000
+@    yaxis  ticklabel font 0
+@    yaxis  ticklabel color 1
+@    yaxis  tick place both
+@    yaxis  tick spec type none
+@    altxaxis  off
+@    altyaxis  off
+@    legend on
+@    legend loctype view
+@    legend 0.5, 0.8
+@    legend box color 1
+@    legend box pattern 1
+@    legend box linewidth 1.0
+@    legend box linestyle 1
+@    legend box fill color 0
+@    legend box fill pattern 1
+@    legend font 0
+@    legend char size 1.000000
+@    legend color 1
+@    legend length 4
+@    legend vgap 1
+@    legend hgap 1
+@    legend invert false
+@    frame type 0
+@    frame linestyle 1
+@    frame linewidth 1.0
+@    frame color 1
+@    frame pattern 1
+@    frame background color 0
+@    frame background pattern 0
+@    s0 hidden false
+@    s0 type xy
+@    s0 symbol 1
+@    s0 symbol size 0.250000
+@    s0 symbol color 2
+@    s0 symbol pattern 1
+@    s0 symbol fill color 2
+@    s0 symbol fill pattern 0
+@    s0 symbol linewidth 1.0
+@    s0 symbol linestyle 1
+@    s0 symbol char 65
+@    s0 symbol char font 0
+@    s0 symbol skip 0
+@    s0 line type 0
+@    s0 line linestyle 1
+@    s0 line linewidth 1.0
+@    s0 line color 1
+@    s0 line pattern 1
+@    s0 baseline type 0
+@    s0 baseline off
+@    s0 dropline off
+@    s0 fill type 0
+@    s0 fill rule 0
+@    s0 fill color 1
+@    s0 fill pattern 1
+@    s0 avalue off
+@    s0 avalue type 2
+@    s0 avalue char size 1.000000
+@    s0 avalue font 0
+@    s0 avalue color 1
+@    s0 avalue rot 0
+@    s0 avalue format general
+@    s0 avalue prec 3
+@    s0 avalue prepend ""
+@    s0 avalue append ""
+@    s0 avalue offset 0.000000 , 0.000000
+@    s0 errorbar on
+@    s0 errorbar place both
+@    s0 errorbar color 2
+@    s0 errorbar pattern 1
+@    s0 errorbar size 1.000000
+@    s0 errorbar linewidth 1.0
+@    s0 errorbar linestyle 1
+@    s0 errorbar riser linewidth 1.0
+@    s0 errorbar riser linestyle 1
+@    s0 errorbar riser clip off
+@    s0 errorbar riser clip length 0.100000
+@    s0 comment "/Users/dacortez/git/SimulacaoEscala/data/machines_uniforme_95.dat"
+@    s0 legend  ""
+@g2 on
+@g2 hidden false
+@g2 type XY
+@g2 stacked false
+@g2 bar hgap 0.000000
+@g2 fixedpoint off
+@g2 fixedpoint type 0
+@g2 fixedpoint xy 0.000000, 0.000000
+@g2 fixedpoint format general general
+@g2 fixedpoint prec 6, 6
+@with g2
+@    world 0, 11000, 1000, 13000
+@    stack world 0, 0, 0, 0
+@    znorm 1
+@    view 0.150000, 0.150000, 0.623389, 0.468182
+@    title ""
+@    title font 0
+@    title size 1.500000
+@    title color 1
+@    subtitle ""
+@    subtitle font 0
+@    subtitle size 1.000000
+@    subtitle color 1
+@    xaxes scale Normal
+@    yaxes scale Normal
+@    xaxes invert off
+@    yaxes invert off
+@    xaxis  on
+@    xaxis  type zero false
+@    xaxis  offset 0.000000 , 0.000000
+@    xaxis  bar on
+@    xaxis  bar color 1
+@    xaxis  bar linestyle 1
+@    xaxis  bar linewidth 1.0
+@    xaxis  label "M\#{e1}quina"
+@    xaxis  label layout para
+@    xaxis  label place auto
+@    xaxis  label char size 1.000000
+@    xaxis  label font 0
+@    xaxis  label color 1
+@    xaxis  label place normal
+@    xaxis  tick on
+@    xaxis  tick major 200
+@    xaxis  tick minor ticks 1
+@    xaxis  tick default 6
+@    xaxis  tick place rounded true
+@    xaxis  tick in
+@    xaxis  tick major size 1.000000
+@    xaxis  tick major color 1
+@    xaxis  tick major linewidth 1.0
+@    xaxis  tick major linestyle 1
+@    xaxis  tick major grid off
+@    xaxis  tick minor color 1
+@    xaxis  tick minor linewidth 1.0
+@    xaxis  tick minor linestyle 1
+@    xaxis  tick minor grid off
+@    xaxis  tick minor size 0.500000
+@    xaxis  ticklabel on
+@    xaxis  ticklabel format general
+@    xaxis  ticklabel prec 5
+@    xaxis  ticklabel formula ""
+@    xaxis  ticklabel append ""
+@    xaxis  ticklabel prepend ""
+@    xaxis  ticklabel angle 0
+@    xaxis  ticklabel skip 0
+@    xaxis  ticklabel stagger 0
+@    xaxis  ticklabel place normal
+@    xaxis  ticklabel offset auto
+@    xaxis  ticklabel offset 0.000000 , 0.010000
+@    xaxis  ticklabel start type auto
+@    xaxis  ticklabel start 0.000000
+@    xaxis  ticklabel stop type auto
+@    xaxis  ticklabel stop 0.000000
+@    xaxis  ticklabel char size 1.000000
+@    xaxis  ticklabel font 0
+@    xaxis  ticklabel color 1
+@    xaxis  tick place both
+@    xaxis  tick spec type none
+@    yaxis  on
+@    yaxis  type zero false
+@    yaxis  offset 0.000000 , 0.000000
+@    yaxis  bar on
+@    yaxis  bar color 1
+@    yaxis  bar linestyle 1
+@    yaxis  bar linewidth 1.0
+@    yaxis  label "Minutos"
+@    yaxis  label layout para
+@    yaxis  label place spec
+@    yaxis  label place 0.000000, 0.100000
+@    yaxis  label char size 1.000000
+@    yaxis  label font 0
+@    yaxis  label color 1
+@    yaxis  label place normal
+@    yaxis  tick on
+@    yaxis  tick major 500
+@    yaxis  tick minor ticks 4
+@    yaxis  tick default 6
+@    yaxis  tick place rounded true
+@    yaxis  tick in
+@    yaxis  tick major size 1.000000
+@    yaxis  tick major color 1
+@    yaxis  tick major linewidth 1.0
+@    yaxis  tick major linestyle 1
+@    yaxis  tick major grid off
+@    yaxis  tick minor color 1
+@    yaxis  tick minor linewidth 1.0
+@    yaxis  tick minor linestyle 1
+@    yaxis  tick minor grid off
+@    yaxis  tick minor size 0.500000
+@    yaxis  ticklabel on
+@    yaxis  ticklabel format general
+@    yaxis  ticklabel prec 5
+@    yaxis  ticklabel formula ""
+@    yaxis  ticklabel append ""
+@    yaxis  ticklabel prepend ""
+@    yaxis  ticklabel angle 0
+@    yaxis  ticklabel skip 0
+@    yaxis  ticklabel stagger 0
+@    yaxis  ticklabel place normal
+@    yaxis  ticklabel offset auto
+@    yaxis  ticklabel offset 0.000000 , 0.010000
+@    yaxis  ticklabel start type auto
+@    yaxis  ticklabel start 0.000000
+@    yaxis  ticklabel stop type auto
+@    yaxis  ticklabel stop 0.000000
+@    yaxis  ticklabel char size 1.000000
+@    yaxis  ticklabel font 0
+@    yaxis  ticklabel color 1
+@    yaxis  tick place both
+@    yaxis  tick spec type none
+@    altxaxis  off
+@    altyaxis  off
+@    legend on
+@    legend loctype view
+@    legend 0.5, 0.8
+@    legend box color 1
+@    legend box pattern 1
+@    legend box linewidth 1.0
+@    legend box linestyle 1
+@    legend box fill color 0
+@    legend box fill pattern 1
+@    legend font 0
+@    legend char size 1.000000
+@    legend color 1
+@    legend length 4
+@    legend vgap 1
+@    legend hgap 1
+@    legend invert false
+@    frame type 0
+@    frame linestyle 1
+@    frame linewidth 1.0
+@    frame color 1
+@    frame pattern 1
+@    frame background color 0
+@    frame background pattern 0
+@    s0 hidden false
+@    s0 type xy
+@    s0 symbol 1
+@    s0 symbol size 0.250000
+@    s0 symbol color 4
+@    s0 symbol pattern 1
+@    s0 symbol fill color 4
+@    s0 symbol fill pattern 0
+@    s0 symbol linewidth 1.0
+@    s0 symbol linestyle 1
+@    s0 symbol char 65
+@    s0 symbol char font 0
+@    s0 symbol skip 0
+@    s0 line type 0
+@    s0 line linestyle 1
+@    s0 line linewidth 1.0
+@    s0 line color 1
+@    s0 line pattern 1
+@    s0 baseline type 0
+@    s0 baseline off
+@    s0 dropline off
+@    s0 fill type 0
+@    s0 fill rule 0
+@    s0 fill color 1
+@    s0 fill pattern 1
+@    s0 avalue off
+@    s0 avalue type 2
+@    s0 avalue char size 1.000000
+@    s0 avalue font 0
+@    s0 avalue color 1
+@    s0 avalue rot 0
+@    s0 avalue format general
+@    s0 avalue prec 3
+@    s0 avalue prepend ""
+@    s0 avalue append ""
+@    s0 avalue offset 0.000000 , 0.000000
+@    s0 errorbar on
+@    s0 errorbar place both
+@    s0 errorbar color 4
+@    s0 errorbar pattern 1
+@    s0 errorbar size 1.000000
+@    s0 errorbar linewidth 1.0
+@    s0 errorbar linestyle 1
+@    s0 errorbar riser linewidth 1.0
+@    s0 errorbar riser linestyle 1
+@    s0 errorbar riser clip off
+@    s0 errorbar riser clip length 0.100000
+@    s0 comment "/Users/dacortez/git/SimulacaoEscala/data/machines_normal_00.dat"
+@    s0 legend  ""
+@g3 on
+@g3 hidden false
+@g3 type XY
+@g3 stacked false
+@g3 bar hgap 0.000000
+@g3 fixedpoint off
+@g3 fixedpoint type 0
+@g3 fixedpoint xy 0.000000, 0.000000
+@g3 fixedpoint format general general
+@g3 fixedpoint prec 6, 6
+@with g3
+@    world 0, 11000, 1000, 13000
+@    stack world 0, 0, 0, 0
+@    znorm 1
+@    view 0.670728, 0.150000, 1.144118, 0.468182
+@    title ""
+@    title font 0
+@    title size 1.500000
+@    title color 1
+@    subtitle ""
+@    subtitle font 0
+@    subtitle size 1.000000
+@    subtitle color 1
+@    xaxes scale Normal
+@    yaxes scale Normal
+@    xaxes invert off
+@    yaxes invert off
+@    xaxis  on
+@    xaxis  type zero false
+@    xaxis  offset 0.000000 , 0.000000
+@    xaxis  bar on
+@    xaxis  bar color 1
+@    xaxis  bar linestyle 1
+@    xaxis  bar linewidth 1.0
+@    xaxis  label "M\#{e1}quina"
+@    xaxis  label layout para
+@    xaxis  label place auto
+@    xaxis  label char size 1.000000
+@    xaxis  label font 0
+@    xaxis  label color 1
+@    xaxis  label place normal
+@    xaxis  tick on
+@    xaxis  tick major 200
+@    xaxis  tick minor ticks 1
+@    xaxis  tick default 6
+@    xaxis  tick place rounded true
+@    xaxis  tick in
+@    xaxis  tick major size 1.000000
+@    xaxis  tick major color 1
+@    xaxis  tick major linewidth 1.0
+@    xaxis  tick major linestyle 1
+@    xaxis  tick major grid off
+@    xaxis  tick minor color 1
+@    xaxis  tick minor linewidth 1.0
+@    xaxis  tick minor linestyle 1
+@    xaxis  tick minor grid off
+@    xaxis  tick minor size 0.500000
+@    xaxis  ticklabel on
+@    xaxis  ticklabel format general
+@    xaxis  ticklabel prec 5
+@    xaxis  ticklabel formula ""
+@    xaxis  ticklabel append ""
+@    xaxis  ticklabel prepend ""
+@    xaxis  ticklabel angle 0
+@    xaxis  ticklabel skip 0
+@    xaxis  ticklabel stagger 0
+@    xaxis  ticklabel place normal
+@    xaxis  ticklabel offset auto
+@    xaxis  ticklabel offset 0.000000 , 0.010000
+@    xaxis  ticklabel start type auto
+@    xaxis  ticklabel start 0.000000
+@    xaxis  ticklabel stop type auto
+@    xaxis  ticklabel stop 0.000000
+@    xaxis  ticklabel char size 1.000000
+@    xaxis  ticklabel font 0
+@    xaxis  ticklabel color 1
+@    xaxis  tick place both
+@    xaxis  tick spec type none
+@    yaxis  on
+@    yaxis  type zero false
+@    yaxis  offset 0.000000 , 0.000000
+@    yaxis  bar on
+@    yaxis  bar color 1
+@    yaxis  bar linestyle 1
+@    yaxis  bar linewidth 1.0
+@    yaxis  label ""
+@    yaxis  label layout para
+@    yaxis  label place auto
+@    yaxis  label char size 1.000000
+@    yaxis  label font 0
+@    yaxis  label color 1
+@    yaxis  label place normal
+@    yaxis  tick on
+@    yaxis  tick major 500
+@    yaxis  tick minor ticks 4
+@    yaxis  tick default 6
+@    yaxis  tick place rounded true
+@    yaxis  tick in
+@    yaxis  tick major size 1.000000
+@    yaxis  tick major color 1
+@    yaxis  tick major linewidth 1.0
+@    yaxis  tick major linestyle 1
+@    yaxis  tick major grid off
+@    yaxis  tick minor color 1
+@    yaxis  tick minor linewidth 1.0
+@    yaxis  tick minor linestyle 1
+@    yaxis  tick minor grid off
+@    yaxis  tick minor size 0.500000
+@    yaxis  ticklabel on
+@    yaxis  ticklabel format general
+@    yaxis  ticklabel prec 5
+@    yaxis  ticklabel formula ""
+@    yaxis  ticklabel append ""
+@    yaxis  ticklabel prepend ""
+@    yaxis  ticklabel angle 0
+@    yaxis  ticklabel skip 0
+@    yaxis  ticklabel stagger 0
+@    yaxis  ticklabel place normal
+@    yaxis  ticklabel offset auto
+@    yaxis  ticklabel offset 0.000000 , 0.010000
+@    yaxis  ticklabel start type auto
+@    yaxis  ticklabel start 0.000000
+@    yaxis  ticklabel stop type auto
+@    yaxis  ticklabel stop 0.000000
+@    yaxis  ticklabel char size 0.000000
+@    yaxis  ticklabel font 0
+@    yaxis  ticklabel color 1
+@    yaxis  tick place both
+@    yaxis  tick spec type none
+@    altxaxis  off
+@    altyaxis  off
+@    legend on
+@    legend loctype view
+@    legend 0.5, 0.8
+@    legend box color 1
+@    legend box pattern 1
+@    legend box linewidth 1.0
+@    legend box linestyle 1
+@    legend box fill color 0
+@    legend box fill pattern 1
+@    legend font 0
+@    legend char size 1.000000
+@    legend color 1
+@    legend length 4
+@    legend vgap 1
+@    legend hgap 1
+@    legend invert false
+@    frame type 0
+@    frame linestyle 1
+@    frame linewidth 1.0
+@    frame color 1
+@    frame pattern 1
+@    frame background color 0
+@    frame background pattern 0
+@    s0 hidden false
+@    s0 type xy
+@    s0 symbol 1
+@    s0 symbol size 0.250000
+@    s0 symbol color 4
+@    s0 symbol pattern 1
+@    s0 symbol fill color 4
+@    s0 symbol fill pattern 0
+@    s0 symbol linewidth 1.0
+@    s0 symbol linestyle 1
+@    s0 symbol char 65
+@    s0 symbol char font 0
+@    s0 symbol skip 0
+@    s0 line type 0
+@    s0 line linestyle 1
+@    s0 line linewidth 1.0
+@    s0 line color 1
+@    s0 line pattern 1
+@    s0 baseline type 0
+@    s0 baseline off
+@    s0 dropline off
+@    s0 fill type 0
+@    s0 fill rule 0
+@    s0 fill color 1
+@    s0 fill pattern 1
+@    s0 avalue off
+@    s0 avalue type 2
+@    s0 avalue char size 1.000000
+@    s0 avalue font 0
+@    s0 avalue color 1
+@    s0 avalue rot 0
+@    s0 avalue format general
+@    s0 avalue prec 3
+@    s0 avalue prepend ""
+@    s0 avalue append ""
+@    s0 avalue offset 0.000000 , 0.000000
+@    s0 errorbar on
+@    s0 errorbar place both
+@    s0 errorbar color 4
+@    s0 errorbar pattern 1
+@    s0 errorbar size 1.000000
+@    s0 errorbar linewidth 1.0
+@    s0 errorbar linestyle 1
+@    s0 errorbar riser linewidth 1.0
+@    s0 errorbar riser linestyle 1
+@    s0 errorbar riser clip off
+@    s0 errorbar riser clip length 0.100000
+@    s0 comment "/Users/dacortez/git/SimulacaoEscala/data/machines_normal_95.dat"
+@    s0 legend  ""
+@target G0.S0
+@type xy
+0 12532
+1 12534
+2 12539
+3 12541
+4 12535
+5 12527
+6 12551
+7 12533
+8 12534
+9 12540
+10 12538
+11 12543
+12 12533
+13 12540
+14 12537
+15 12541
+16 12544
+17 12536
+18 12538
+19 12532
+20 12538
+21 12528
+22 12527
+23 12539
+24 12533
+25 12552
+26 12550
+27 12541
+28 12532
+29 12541
+30 12538
+31 12538
+32 12540
+33 12553
+34 12538
+35 12536
+36 12536
+37 12540
+38 12537
+39 12537
+40 12536
+41 12541
+42 12527
+43 12539
+44 12551
+45 12539
+46 12539
+47 12536
+48 12532
+49 12533
+50 12537
+51 12544
+52 12549
+53 12540
+54 12544
+55 12549
+56 12534
+57 12549
+58 12539
+59 12541
+60 12536
+61 12537
+62 12539
+63 12543
+64 12529
+65 12538
+66 12547
+67 12537
+68 12538
+69 12548
+70 12536
+71 12537
+72 12543
+73 12533
+74 12540
+75 12550
+76 12528
+77 12536
+78 12542
+79 12534
+80 12536
+81 12550
+82 12528
+83 12532
+84 12545
+85 12536
+86 12552
+87 12529
+88 12541
+89 12532
+90 12537
+91 12538
+92 12532
+93 12537
+94 12533
+95 12533
+96 12527
+97 12540
+98 12539
+99 12551
+100 12542
+101 12539
+102 12550
+103 12538
+104 12539
+105 12532
+106 12535
+107 12540
+108 12553
+109 12538
+110 12533
+111 12537
+112 12548
+113 12537
+114 12548
+115 12547
+116 12539
+117 12536
+118 12533
+119 12528
+120 12538
+121 12551
+122 12544
+123 12541
+124 12541
+125 12539
+126 12537
+127 12550
+128 12535
+129 12544
+130 12532
+131 12540
+132 12551
+133 12533
+134 12538
+135 12537
+136 12527
+137 12533
+138 12541
+139 12547
+140 12538
+141 12538
+142 12540
+143 12550
+144 12536
+145 12547
+146 12553
+147 12539
+148 12539
+149 12532
+150 12540
+151 12538
+152 12541
+153 12540
+154 12543
+155 12527
+156 12549
+157 12536
+158 12543
+159 12538
+160 12536
+161 12539
+162 12538
+163 12551
+164 12548
+165 12548
+166 12539
+167 12536
+168 12532
+169 12535
+170 12544
+171 12546
+172 12546
+173 12528
+174 12532
+175 12540
+176 12540
+177 12533
+178 12549
+179 12537
+180 12539
+181 12541
+182 12551
+183 12549
+184 12533
+185 12541
+186 12541
+187 12537
+188 12547
+189 12540
+190 12536
+191 12538
+192 12533
+193 12537
+194 12541
+195 12544
+196 12541
+197 12552
+198 12537
+199 12538
+200 12551
+201 12536
+202 12549
+203 12539
+204 12552
+205 12541
+206 12538
+207 12533
+208 12546
+209 12538
+210 12539
+211 12541
+212 12540
+213 12538
+214 12540
+215 12540
+216 12534
+217 12544
+218 12539
+219 12533
+220 12536
+221 12536
+222 12541
+223 12539
+224 12549
+225 12536
+226 12532
+227 12537
+228 12550
+229 12541
+230 12538
+231 12550
+232 12548
+233 12548
+234 12549
+235 12541
+236 12533
+237 12552
+238 12537
+239 12540
+240 12539
+241 12537
+242 12535
+243 12536
+244 12537
+245 12534
+246 12550
+247 12536
+248 12539
+249 12543
+250 12538
+251 12540
+252 12548
+253 12532
+254 12538
+255 12552
+256 12538
+257 12537
+258 12553
+259 12542
+260 12534
+261 12547
+262 12532
+263 12537
+264 12552
+265 12550
+266 12539
+267 12537
+268 12547
+269 12538
+270 12544
+271 12540
+272 12540
+273 12549
+274 12537
+275 12544
+276 12536
+277 12538
+278 12548
+279 12546
+280 12550
+281 12534
+282 12551
+283 12538
+284 12537
+285 12547
+286 12538
+287 12554
+288 12533
+289 12543
+290 12538
+291 12540
+292 12540
+293 12536
+294 12538
+295 12539
+296 12537
+297 12534
+298 12540
+299 12538
+300 12535
+301 12538
+302 12539
+303 12541
+304 12540
+305 12540
+306 12539
+307 12553
+308 12539
+309 12546
+310 12554
+311 12538
+312 12539
+313 12549
+314 12542
+315 12535
+316 12533
+317 12534
+318 12540
+319 12544
+320 12540
+321 12539
+322 12549
+323 12536
+324 12527
+325 12544
+326 12538
+327 12535
+328 12539
+329 12532
+330 12539
+331 12533
+332 12532
+333 12539
+334 12539
+335 12540
+336 12540
+337 12534
+338 12540
+339 12529
+340 12552
+341 12540
+342 12541
+343 12543
+344 12539
+345 12539
+346 12541
+347 12527
+348 12527
+349 12539
+350 12536
+351 12546
+352 12536
+353 12541
+354 12538
+355 12539
+356 12539
+357 12527
+358 12542
+359 12553
+360 12538
+361 12533
+362 12536
+363 12538
+364 12547
+365 12540
+366 12552
+367 12536
+368 12533
+369 12540
+370 12543
+371 12544
+372 12531
+373 12537
+374 12540
+375 12550
+376 12539
+377 12537
+378 12548
+379 12547
+380 12537
+381 12539
+382 12533
+383 12550
+384 12538
+385 12537
+386 12533
+387 12540
+388 12535
+389 12533
+390 12546
+391 12549
+392 12538
+393 12533
+394 12547
+395 12549
+396 12547
+397 12533
+398 12532
+399 12542
+400 12554
+401 12539
+402 12529
+403 12535
+404 12535
+405 12536
+406 12539
+407 12536
+408 12540
+409 12541
+410 12536
+411 12532
+412 12538
+413 12534
+414 12539
+415 12527
+416 12537
+417 12537
+418 12539
+419 12533
+420 12532
+421 12550
+422 12534
+423 12553
+424 12534
+425 12549
+426 12544
+427 12538
+428 12533
+429 12551
+430 12537
+431 12540
+432 12548
+433 12538
+434 12549
+435 12535
+436 12537
+437 12533
+438 12539
+439 12533
+440 12541
+441 12543
+442 12527
+443 12538
+444 12535
+445 12536
+446 12549
+447 12544
+448 12554
+449 12552
+450 12544
+451 12533
+452 12537
+453 12536
+454 12536
+455 12534
+456 12537
+457 12538
+458 12538
+459 12532
+460 12536
+461 12544
+462 12533
+463 12539
+464 12536
+465 12538
+466 12533
+467 12541
+468 12540
+469 12543
+470 12534
+471 12535
+472 12533
+473 12532
+474 12537
+475 12537
+476 12539
+477 12537
+478 12527
+479 12541
+480 12539
+481 12544
+482 12528
+483 12533
+484 12529
+485 12537
+486 12542
+487 12537
+488 12526
+489 12539
+490 12539
+491 12540
+492 12544
+493 12538
+494 12538
+495 12549
+496 12541
+497 12542
+498 12541
+499 12551
+500 12540
+501 12536
+502 12537
+503 12538
+504 12550
+505 12528
+506 12549
+507 12535
+508 12536
+509 12541
+510 12536
+511 12536
+512 12548
+513 12540
+514 12532
+515 12548
+516 12537
+517 12537
+518 12541
+519 12540
+520 12531
+521 12543
+522 12538
+523 12538
+524 12538
+525 12540
+526 12537
+527 12540
+528 12536
+529 12537
+530 12534
+531 12540
+532 12543
+533 12533
+534 12537
+535 12550
+536 12551
+537 12539
+538 12538
+539 12549
+540 12531
+541 12550
+542 12541
+543 12539
+544 12544
+545 12534
+546 12534
+547 12538
+548 12537
+549 12532
+550 12529
+551 12539
+552 12532
+553 12541
+554 12533
+555 12550
+556 12533
+557 12545
+558 12545
+559 12534
+560 12549
+561 12542
+562 12539
+563 12539
+564 12544
+565 12536
+566 12551
+567 12540
+568 12540
+569 12544
+570 12537
+571 12527
+572 12537
+573 12534
+574 12539
+575 12543
+576 12529
+577 12528
+578 12537
+579 12548
+580 12539
+581 12541
+582 12528
+583 12538
+584 12528
+585 12528
+586 12539
+587 12534
+588 12538
+589 12540
+590 12537
+591 12544
+592 12541
+593 12539
+594 12532
+595 12545
+596 12537
+597 12538
+598 12549
+599 12540
+600 12541
+601 12548
+602 12536
+603 12541
+604 12550
+605 12539
+606 12533
+607 12540
+608 12533
+609 12536
+610 12538
+611 12540
+612 12539
+613 12544
+614 12549
+615 12541
+616 12538
+617 12539
+618 12545
+619 12546
+620 12539
+621 12539
+622 12549
+623 12554
+624 12540
+625 12532
+626 12539
+627 12547
+628 12551
+629 12541
+630 12540
+631 12547
+632 12540
+633 12534
+634 12549
+635 12537
+636 12541
+637 12536
+638 12541
+639 12551
+640 12541
+641 12550
+642 12544
+643 12547
+644 12544
+645 12539
+646 12536
+647 12552
+648 12536
+649 12541
+650 12549
+651 12543
+652 12538
+653 12543
+654 12532
+655 12544
+656 12549
+657 12541
+658 12537
+659 12551
+660 12545
+661 12533
+662 12538
+663 12532
+664 12528
+665 12549
+666 12540
+667 12553
+668 12542
+669 12540
+670 12533
+671 12532
+672 12539
+673 12535
+674 12540
+675 12540
+676 12552
+677 12534
+678 12537
+679 12540
+680 12537
+681 12540
+682 12536
+683 12538
+684 12538
+685 12537
+686 12546
+687 12548
+688 12541
+689 12543
+690 12534
+691 12537
+692 12552
+693 12538
+694 12541
+695 12539
+696 12539
+697 12536
+698 12539
+699 12550
+700 12549
+701 12528
+702 12539
+703 12550
+704 12538
+705 12537
+706 12543
+707 12550
+708 12550
+709 12540
+710 12538
+711 12537
+712 12546
+713 12543
+714 12538
+715 12548
+716 12551
+717 12538
+718 12547
+719 12540
+720 12543
+721 12544
+722 12532
+723 12552
+724 12539
+725 12541
+726 12538
+727 12546
+728 12540
+729 12551
+730 12537
+731 12549
+732 12537
+733 12539
+734 12529
+735 12538
+736 12549
+737 12539
+738 12538
+739 12548
+740 12539
+741 12550
+742 12539
+743 12533
+744 12546
+745 12538
+746 12537
+747 12538
+748 12533
+749 12548
+750 12540
+751 12541
+752 12549
+753 12536
+754 12541
+755 12551
+756 12533
+757 12537
+758 12528
+759 12539
+760 12532
+761 12540
+762 12553
+763 12541
+764 12547
+765 12533
+766 12547
+767 12543
+768 12537
+769 12543
+770 12534
+771 12549
+772 12549
+773 12540
+774 12537
+775 12534
+776 12533
+777 12549
+778 12538
+779 12548
+780 12549
+781 12533
+782 12541
+783 12528
+784 12541
+785 12536
+786 12535
+787 12537
+788 12546
+789 12534
+790 12541
+791 12538
+792 12538
+793 12539
+794 12539
+795 12541
+796 12542
+797 12540
+798 12533
+799 12538
+800 12538
+801 12533
+802 12542
+803 12539
+804 12539
+805 12549
+806 12547
+807 12549
+808 12541
+809 12541
+810 12551
+811 12538
+812 12540
+813 12536
+814 12550
+815 12534
+816 12541
+817 12539
+818 12532
+819 12536
+820 12542
+821 12540
+822 12532
+823 12536
+824 12533
+825 12538
+826 12538
+827 12526
+828 12539
+829 12540
+830 12539
+831 12541
+832 12536
+833 12532
+834 12536
+835 12534
+836 12533
+837 12540
+838 12540
+839 12538
+840 12539
+841 12533
+842 12537
+843 12548
+844 12539
+845 12527
+846 12540
+847 12549
+848 12549
+849 12543
+850 12542
+851 12529
+852 12538
+853 12535
+854 12540
+855 12539
+856 12541
+857 12549
+858 12533
+859 12528
+860 12541
+861 12536
+862 12532
+863 12533
+864 12527
+865 12540
+866 12537
+867 12537
+868 12538
+869 12536
+870 12541
+871 12536
+872 12547
+873 12549
+874 12537
+875 12538
+876 12542
+877 12526
+878 12538
+879 12528
+880 12536
+881 12539
+882 12539
+883 12538
+884 12535
+885 12550
+886 12532
+887 12540
+888 12533
+889 12540
+890 12544
+891 12532
+892 12541
+893 12537
+894 12539
+895 12547
+896 12544
+897 12538
+898 12549
+899 12534
+900 12550
+901 12532
+902 12535
+903 12539
+904 12533
+905 12551
+906 12541
+907 12541
+908 12539
+909 12543
+910 12545
+911 12529
+912 12550
+913 12534
+914 12533
+915 12541
+916 12548
+917 12548
+918 12541
+919 12554
+920 12536
+921 12541
+922 12536
+923 12537
+924 12538
+925 12540
+926 12543
+927 12553
+928 12547
+929 12532
+930 12539
+931 12546
+932 12539
+933 12533
+934 12551
+935 12527
+936 12535
+937 12539
+938 12538
+939 12549
+940 12541
+941 12538
+942 12543
+943 12550
+944 12539
+945 12540
+946 12532
+947 12546
+948 12536
+949 12526
+950 12535
+951 12551
+952 12540
+953 12540
+954 12540
+955 12538
+956 12553
+957 12540
+958 12537
+959 12549
+960 12539
+961 12535
+962 12533
+963 12527
+964 12537
+965 12538
+966 12548
+967 12549
+968 12538
+969 12537
+970 12532
+971 12551
+972 12544
+973 12538
+974 12540
+975 12542
+976 12536
+977 12538
+978 12550
+979 12534
+980 12552
+981 12538
+982 12539
+983 12544
+984 12537
+985 12533
+986 12548
+987 12541
+988 12532
+989 12537
+990 12537
+991 12541
+992 12540
+993 12550
+994 12550
+995 12536
+996 12544
+997 12544
+998 12540
+999 12535
+&
+@target G1.S0
+@type xy
+0 12579
+1 12592
+2 12596
+3 12590
+4 12603
+5 12566
+6 12592
+7 12576
+8 12609
+9 12602
+10 12583
+11 12563
+12 12595
+13 12573
+14 12571
+15 12589
+16 12596
+17 12562
+18 12421
+19 12594
+20 12583
+21 12561
+22 12558
+23 12608
+24 12597
+25 12559
+26 12585
+27 12573
+28 12571
+29 12564
+30 12603
+31 12574
+32 12595
+33 12585
+34 12552
+35 12587
+36 12578
+37 12567
+38 12566
+39 12600
+40 12570
+41 12569
+42 12581
+43 12553
+44 12559
+45 12580
+46 12578
+47 12566
+48 12575
+49 12562
+50 12589
+51 12578
+52 12605
+53 12562
+54 12601
+55 12593
+56 12569
+57 12557
+58 12595
+59 12603
+60 12581
+61 12571
+62 12580
+63 12595
+64 12579
+65 12558
+66 12569
+67 12565
+68 12597
+69 12569
+70 12577
+71 12587
+72 12593
+73 12597
+74 12582
+75 12554
+76 12595
+77 12575
+78 12606
+79 12610
+80 12598
+81 12573
+82 12552
+83 12569
+84 12583
+85 12428
+86 12570
+87 12573
+88 12602
+89 12565
+90 12595
+91 12573
+92 12607
+93 12584
+94 12597
+95 12579
+96 12598
+97 12582
+98 12593
+99 12572
+100 12584
+101 12586
+102 12592
+103 12582
+104 12579
+105 12590
+106 12591
+107 12572
+108 12570
+109 12558
+110 12570
+111 12593
+112 12585
+113 12604
+114 12570
+115 12591
+116 12581
+117 12570
+118 12568
+119 12580
+120 12576
+121 12571
+122 12565
+123 12566
+124 12572
+125 12595
+126 12570
+127 12582
+128 12549
+129 12562
+130 12559
+131 12574
+132 12582
+133 12563
+134 12587
+135 12579
+136 12555
+137 12564
+138 12572
+139 12583
+140 12614
+141 12587
+142 12574
+143 12568
+144 12591
+145 12552
+146 12596
+147 12580
+148 12572
+149 12588
+150 12581
+151 12585
+152 12589
+153 12567
+154 12673
+155 12570
+156 12605
+157 12565
+158 12589
+159 12577
+160 12572
+161 12589
+162 12570
+163 12594
+164 12596
+165 12593
+166 12562
+167 12594
+168 12558
+169 12561
+170 12591
+171 12568
+172 12574
+173 12434
+174 12583
+175 12581
+176 12567
+177 12557
+178 12591
+179 12569
+180 12599
+181 12599
+182 12587
+183 12425
+184 12589
+185 12550
+186 12573
+187 12587
+188 12544
+189 12597
+190 12579
+191 12585
+192 12585
+193 12588
+194 12559
+195 12572
+196 12575
+197 12606
+198 12598
+199 12575
+200 12571
+201 12568
+202 12602
+203 12564
+204 12581
+205 12573
+206 12575
+207 12432
+208 12591
+209 12571
+210 12569
+211 12670
+212 12555
+213 12593
+214 12572
+215 12583
+216 12587
+217 12579
+218 12596
+219 12578
+220 12585
+221 12582
+222 12573
+223 12586
+224 12598
+225 12554
+226 12587
+227 12592
+228 12573
+229 12597
+230 12577
+231 12588
+232 12426
+233 12575
+234 12593
+235 12598
+236 12555
+237 12579
+238 12574
+239 12600
+240 12597
+241 12680
+242 12593
+243 12574
+244 12563
+245 12568
+246 12556
+247 12591
+248 12585
+249 12572
+250 12583
+251 12564
+252 12566
+253 12593
+254 12577
+255 12565
+256 12573
+257 12561
+258 12607
+259 12558
+260 12603
+261 12572
+262 12558
+263 12669
+264 12580
+265 12584
+266 12595
+267 12575
+268 12596
+269 12585
+270 12586
+271 12566
+272 12571
+273 12559
+274 12590
+275 12593
+276 12567
+277 12586
+278 12542
+279 12586
+280 12567
+281 12578
+282 12598
+283 12581
+284 12597
+285 12562
+286 12605
+287 12571
+288 12576
+289 12676
+290 12582
+291 12558
+292 12566
+293 12590
+294 12580
+295 12573
+296 12578
+297 12602
+298 12563
+299 12602
+300 12567
+301 12595
+302 12572
+303 12607
+304 12580
+305 12600
+306 12577
+307 12573
+308 12589
+309 12571
+310 12555
+311 12622
+312 12592
+313 12592
+314 12576
+315 12586
+316 12585
+317 12570
+318 12579
+319 12572
+320 12571
+321 12589
+322 12561
+323 12605
+324 12587
+325 12609
+326 12555
+327 12571
+328 12587
+329 12573
+330 12584
+331 12600
+332 12575
+333 12577
+334 12594
+335 12584
+336 12593
+337 12577
+338 12680
+339 12575
+340 12549
+341 12596
+342 12586
+343 12581
+344 12678
+345 12581
+346 12581
+347 12571
+348 12568
+349 12425
+350 12594
+351 12585
+352 12562
+353 12568
+354 12597
+355 12575
+356 12607
+357 12588
+358 12581
+359 12585
+360 12576
+361 12574
+362 12586
+363 12676
+364 12597
+365 12592
+366 12563
+367 12579
+368 12605
+369 12597
+370 12606
+371 12586
+372 12569
+373 12596
+374 12608
+375 12580
+376 12572
+377 12591
+378 12583
+379 12576
+380 12574
+381 12578
+382 12572
+383 12576
+384 12593
+385 12607
+386 12612
+387 12580
+388 12594
+389 12563
+390 12590
+391 12604
+392 12590
+393 12577
+394 12580
+395 12577
+396 12600
+397 12566
+398 12583
+399 12572
+400 12561
+401 12592
+402 12602
+403 12580
+404 12571
+405 12562
+406 12570
+407 12586
+408 12592
+409 12585
+410 12590
+411 12551
+412 12561
+413 12600
+414 12587
+415 12581
+416 12560
+417 12556
+418 12561
+419 12591
+420 12564
+421 12590
+422 12572
+423 12555
+424 12590
+425 12601
+426 12574
+427 12591
+428 12586
+429 12589
+430 12595
+431 12580
+432 12573
+433 12595
+434 12561
+435 12602
+436 12597
+437 12597
+438 12563
+439 12598
+440 12546
+441 12597
+442 12586
+443 12561
+444 12578
+445 12573
+446 12596
+447 12567
+448 12600
+449 12585
+450 12590
+451 12590
+452 12613
+453 12591
+454 12582
+455 12563
+456 12573
+457 12602
+458 12586
+459 12576
+460 12562
+461 12564
+462 12555
+463 12565
+464 12601
+465 12570
+466 12611
+467 12569
+468 12571
+469 12576
+470 12586
+471 12583
+472 12579
+473 12589
+474 12582
+475 12561
+476 12596
+477 12582
+478 12579
+479 12578
+480 12579
+481 12562
+482 12558
+483 12583
+484 12588
+485 12581
+486 12587
+487 12572
+488 12605
+489 12577
+490 12553
+491 12565
+492 12682
+493 12599
+494 12567
+495 12560
+496 12603
+497 12560
+498 12575
+499 12575
+500 12567
+501 12585
+502 12561
+503 12558
+504 12577
+505 12565
+506 12575
+507 12589
+508 12600
+509 12603
+510 12580
+511 12560
+512 12583
+513 12597
+514 12594
+515 12577
+516 12587
+517 12570
+518 12559
+519 12572
+520 12582
+521 12568
+522 12572
+523 12568
+524 12580
+525 12569
+526 12576
+527 12596
+528 12554
+529 12598
+530 12569
+531 12575
+532 12571
+533 12593
+534 12585
+535 12611
+536 12613
+537 12587
+538 12591
+539 12579
+540 12599
+541 12554
+542 12577
+543 12573
+544 12593
+545 12564
+546 12557
+547 12590
+548 12592
+549 12428
+550 12583
+551 12595
+552 12586
+553 12592
+554 12587
+555 12589
+556 12559
+557 12580
+558 12432
+559 12590
+560 12583
+561 12555
+562 12571
+563 12569
+564 12567
+565 12580
+566 12598
+567 12613
+568 12594
+569 12588
+570 12584
+571 12567
+572 12580
+573 12576
+574 12571
+575 12572
+576 12585
+577 12424
+578 12551
+579 12583
+580 12594
+581 12566
+582 12570
+583 12557
+584 12677
+585 12585
+586 12605
+587 12595
+588 12578
+589 12590
+590 12577
+591 12575
+592 12587
+593 12546
+594 12572
+595 12592
+596 12597
+597 12581
+598 12567
+599 12592
+600 12569
+601 12586
+602 12554
+603 12593
+604 12570
+605 12578
+606 12584
+607 12582
+608 12563
+609 12588
+610 12580
+611 12587
+612 12615
+613 12607
+614 12588
+615 12563
+616 12610
+617 12593
+618 12610
+619 12561
+620 12582
+621 12585
+622 12596
+623 12573
+624 12608
+625 12561
+626 12584
+627 12552
+628 12590
+629 12591
+630 12595
+631 12569
+632 12567
+633 12556
+634 12573
+635 12589
+636 12577
+637 12579
+638 12567
+639 12558
+640 12600
+641 12593
+642 12583
+643 12577
+644 12587
+645 12583
+646 12567
+647 12578
+648 12562
+649 12579
+650 12595
+651 12571
+652 12549
+653 12550
+654 12597
+655 12581
+656 12596
+657 12575
+658 12596
+659 12579
+660 12586
+661 12561
+662 12594
+663 12573
+664 12608
+665 12567
+666 12598
+667 12582
+668 12587
+669 12559
+670 12588
+671 12590
+672 12586
+673 12569
+674 12557
+675 12568
+676 12573
+677 12573
+678 12569
+679 12579
+680 12582
+681 12610
+682 12564
+683 12566
+684 12580
+685 12569
+686 12570
+687 12561
+688 12585
+689 12590
+690 12561
+691 12569
+692 12599
+693 12552
+694 12431
+695 12571
+696 12575
+697 12576
+698 12574
+699 12585
+700 12590
+701 12570
+702 12572
+703 12588
+704 12591
+705 12585
+706 12553
+707 12584
+708 12579
+709 12558
+710 12563
+711 12597
+712 12610
+713 12567
+714 12595
+715 12582
+716 12594
+717 12585
+718 12598
+719 12593
+720 12580
+721 12549
+722 12579
+723 12573
+724 12580
+725 12618
+726 12583
+727 12583
+728 12576
+729 12558
+730 12566
+731 12602
+732 12571
+733 12585
+734 12592
+735 12584
+736 12565
+737 12572
+738 12432
+739 12577
+740 12608
+741 12559
+742 12592
+743 12577
+744 12578
+745 12589
+746 12578
+747 12556
+748 12581
+749 12565
+750 12555
+751 12567
+752 12562
+753 12581
+754 12579
+755 12565
+756 12595
+757 12567
+758 12609
+759 12585
+760 12587
+761 12554
+762 12553
+763 12562
+764 12564
+765 12595
+766 12575
+767 12594
+768 12584
+769 12569
+770 12559
+771 12586
+772 12570
+773 12581
+774 12591
+775 12564
+776 12423
+777 12558
+778 12604
+779 12560
+780 12571
+781 12586
+782 12597
+783 12580
+784 12588
+785 12569
+786 12602
+787 12596
+788 12564
+789 12558
+790 12595
+791 12578
+792 12674
+793 12590
+794 12553
+795 12603
+796 12550
+797 12561
+798 12584
+799 12593
+800 12602
+801 12610
+802 12574
+803 12587
+804 12565
+805 12571
+806 12583
+807 12584
+808 12568
+809 12587
+810 12565
+811 12561
+812 12556
+813 12582
+814 12600
+815 12592
+816 12595
+817 12587
+818 12570
+819 12589
+820 12578
+821 12553
+822 12591
+823 12617
+824 12596
+825 12570
+826 12556
+827 12593
+828 12587
+829 12568
+830 12588
+831 12557
+832 12588
+833 12573
+834 12586
+835 12590
+836 12569
+837 12571
+838 12573
+839 12582
+840 12585
+841 12587
+842 12599
+843 12565
+844 12677
+845 12583
+846 12593
+847 12587
+848 12618
+849 12582
+850 12548
+851 12581
+852 12591
+853 12583
+854 12578
+855 12565
+856 12579
+857 12581
+858 12671
+859 12578
+860 12568
+861 12565
+862 12595
+863 12578
+864 12588
+865 12556
+866 12548
+867 12587
+868 12567
+869 12562
+870 12674
+871 12568
+872 12584
+873 12604
+874 12549
+875 12590
+876 12599
+877 12611
+878 12598
+879 12569
+880 12556
+881 12572
+882 12577
+883 12586
+884 12585
+885 12584
+886 12575
+887 12574
+888 12558
+889 12594
+890 12586
+891 12552
+892 12600
+893 12599
+894 12583
+895 12554
+896 12569
+897 12554
+898 12580
+899 12603
+900 12583
+901 12567
+902 12556
+903 12564
+904 12575
+905 12578
+906 12594
+907 12591
+908 12563
+909 12567
+910 12575
+911 12576
+912 12569
+913 12566
+914 12572
+915 12572
+916 12590
+917 12572
+918 12583
+919 12588
+920 12563
+921 12563
+922 12582
+923 12580
+924 12565
+925 12558
+926 12568
+927 12601
+928 12570
+929 12570
+930 12567
+931 12544
+932 12576
+933 12583
+934 12573
+935 12557
+936 12581
+937 12591
+938 12582
+939 12586
+940 12570
+941 12590
+942 12597
+943 12562
+944 12589
+945 12590
+946 12593
+947 12556
+948 12616
+949 12572
+950 12577
+951 12604
+952 12562
+953 12565
+954 12591
+955 12590
+956 12607
+957 12573
+958 12595
+959 12570
+960 12594
+961 12594
+962 12592
+963 12570
+964 12550
+965 12570
+966 12563
+967 12582
+968 12567
+969 12573
+970 12570
+971 12575
+972 12563
+973 12576
+974 12580
+975 12597
+976 12574
+977 12585
+978 12552
+979 12566
+980 12572
+981 12578
+982 12576
+983 12560
+984 12552
+985 12577
+986 12584
+987 12554
+988 12566
+989 12579
+990 12554
+991 12584
+992 12588
+993 12578
+994 12584
+995 12593
+996 12425
+997 12567
+998 12583
+999 12599
+&
+@target G2.S0
+@type xy
+0 12123
+1 12144
+2 11709
+3 12117
+4 12067
+5 12029
+6 12150
+7 12143
+8 12029
+9 11734
+10 12151
+11 12118
+12 12026
+13 12115
+14 12085
+15 12114
+16 12114
+17 12066
+18 12154
+19 12031
+20 12138
+21 11982
+22 12154
+23 11896
+24 12038
+25 12011
+26 11853
+27 12149
+28 12065
+29 11959
+30 12054
+31 12027
+32 11934
+33 12152
+34 11863
+35 11642
+36 12044
+37 12027
+38 12153
+39 12016
+40 12065
+41 11853
+42 12152
+43 12134
+44 11936
+45 12023
+46 12034
+47 12125
+48 12130
+49 11868
+50 12123
+51 12085
+52 12086
+53 12141
+54 12153
+55 11880
+56 11977
+57 12154
+58 12022
+59 11981
+60 12124
+61 11847
+62 12139
+63 12050
+64 11885
+65 12064
+66 12121
+67 11980
+68 11978
+69 11727
+70 11874
+71 12017
+72 12139
+73 12145
+74 12001
+75 12038
+76 11630
+77 11648
+78 12153
+79 11948
+80 12075
+81 12115
+82 11819
+83 12038
+84 12011
+85 12109
+86 12077
+87 11843
+88 12070
+89 12133
+90 11945
+91 12124
+92 12081
+93 12138
+94 12123
+95 12032
+96 11939
+97 12100
+98 12085
+99 12131
+100 11899
+101 12156
+102 12063
+103 12071
+104 12146
+105 11953
+106 11604
+107 12041
+108 11807
+109 12005
+110 12132
+111 12133
+112 12126
+113 12028
+114 12148
+115 12015
+116 12117
+117 11853
+118 11634
+119 12051
+120 12089
+121 12140
+122 11929
+123 12050
+124 12123
+125 11984
+126 11996
+127 12035
+128 12138
+129 12139
+130 12064
+131 12153
+132 12059
+133 12138
+134 12145
+135 12131
+136 11764
+137 12011
+138 12120
+139 12030
+140 12054
+141 12074
+142 12141
+143 12133
+144 11994
+145 11766
+146 12139
+147 12068
+148 11955
+149 12124
+150 11969
+151 11764
+152 12153
+153 11952
+154 12153
+155 12043
+156 12153
+157 11856
+158 12013
+159 11998
+160 12131
+161 12028
+162 12026
+163 12125
+164 11905
+165 11804
+166 12066
+167 12103
+168 12141
+169 12013
+170 12155
+171 11870
+172 12144
+173 11642
+174 12117
+175 12154
+176 12153
+177 12034
+178 12145
+179 12078
+180 12015
+181 12153
+182 11901
+183 12118
+184 12092
+185 12063
+186 12134
+187 12119
+188 12140
+189 12138
+190 12030
+191 11919
+192 12146
+193 12106
+194 12085
+195 12009
+196 12151
+197 12046
+198 11942
+199 12083
+200 12038
+201 12146
+202 12013
+203 12046
+204 12077
+205 11685
+206 12010
+207 11994
+208 12101
+209 12050
+210 11860
+211 12138
+212 12019
+213 12143
+214 11879
+215 12138
+216 12108
+217 11960
+218 12071
+219 12142
+220 11916
+221 11724
+222 12148
+223 12149
+224 11904
+225 12065
+226 11945
+227 12154
+228 12154
+229 12083
+230 11964
+231 12076
+232 11965
+233 12081
+234 12144
+235 11912
+236 12051
+237 11989
+238 12115
+239 12101
+240 12041
+241 12151
+242 12153
+243 12138
+244 12067
+245 12051
+246 11980
+247 11900
+248 12113
+249 11904
+250 12103
+251 12105
+252 12124
+253 12051
+254 11755
+255 12042
+256 12154
+257 12065
+258 12093
+259 12054
+260 11806
+261 11963
+262 12080
+263 11869
+264 11852
+265 12073
+266 12027
+267 12117
+268 12103
+269 11994
+270 12114
+271 11948
+272 12060
+273 12155
+274 12108
+275 12051
+276 11906
+277 12142
+278 12070
+279 12094
+280 11618
+281 12078
+282 12007
+283 12113
+284 11993
+285 11627
+286 11751
+287 12151
+288 12153
+289 12144
+290 12141
+291 12059
+292 12154
+293 12149
+294 12117
+295 11648
+296 12131
+297 12117
+298 12124
+299 11766
+300 12151
+301 11618
+302 11840
+303 12137
+304 12154
+305 11780
+306 12139
+307 12072
+308 12066
+309 12111
+310 11954
+311 12109
+312 11961
+313 12149
+314 12154
+315 11979
+316 11960
+317 12110
+318 12131
+319 11958
+320 11676
+321 12132
+322 12079
+323 11916
+324 12145
+325 11747
+326 12138
+327 12074
+328 12138
+329 11947
+330 11978
+331 12007
+332 12001
+333 12141
+334 11865
+335 12153
+336 11916
+337 12020
+338 12154
+339 12014
+340 11852
+341 12043
+342 12026
+343 12089
+344 12051
+345 12104
+346 12030
+347 12153
+348 11965
+349 12153
+350 11966
+351 12124
+352 12054
+353 12050
+354 12120
+355 12056
+356 12029
+357 11811
+358 11958
+359 12142
+360 11777
+361 12158
+362 12117
+363 12107
+364 11870
+365 11939
+366 11819
+367 11963
+368 12002
+369 11978
+370 12140
+371 12028
+372 12130
+373 11835
+374 11940
+375 12157
+376 12033
+377 11632
+378 12118
+379 12152
+380 12059
+381 12075
+382 12054
+383 11876
+384 11882
+385 11856
+386 11888
+387 12133
+388 12027
+389 12138
+390 12127
+391 12004
+392 12090
+393 12002
+394 12013
+395 12046
+396 11955
+397 11720
+398 12137
+399 12061
+400 11774
+401 11996
+402 11997
+403 12121
+404 12148
+405 12114
+406 12132
+407 11968
+408 12066
+409 12150
+410 11979
+411 12107
+412 12060
+413 11902
+414 12013
+415 12139
+416 12153
+417 12149
+418 12154
+419 11795
+420 12076
+421 11960
+422 12103
+423 12133
+424 12035
+425 12152
+426 12131
+427 12155
+428 12051
+429 11938
+430 12154
+431 11982
+432 11697
+433 12101
+434 11856
+435 11760
+436 12156
+437 12148
+438 12114
+439 12133
+440 12037
+441 12158
+442 12124
+443 12113
+444 12139
+445 12085
+446 11959
+447 11724
+448 12080
+449 11604
+450 12142
+451 12124
+452 12004
+453 11710
+454 11664
+455 11905
+456 12147
+457 11886
+458 12011
+459 12117
+460 12059
+461 12146
+462 11872
+463 12067
+464 11795
+465 11972
+466 12118
+467 11646
+468 12052
+469 11808
+470 12091
+471 12117
+472 12067
+473 12153
+474 12151
+475 12021
+476 12071
+477 12051
+478 12074
+479 12149
+480 12035
+481 11913
+482 11985
+483 11850
+484 11936
+485 12153
+486 12097
+487 11881
+488 11997
+489 12096
+490 12139
+491 11672
+492 12153
+493 12123
+494 11851
+495 12085
+496 12090
+497 12153
+498 12108
+499 11706
+500 12153
+501 12133
+502 12080
+503 11921
+504 11989
+505 11955
+506 11996
+507 12140
+508 12099
+509 12141
+510 12113
+511 12123
+512 11922
+513 12006
+514 12002
+515 12059
+516 12069
+517 11906
+518 12092
+519 12070
+520 12125
+521 12127
+522 11967
+523 12143
+524 12056
+525 11604
+526 12149
+527 12090
+528 12104
+529 11951
+530 12105
+531 12111
+532 12138
+533 12027
+534 11949
+535 11634
+536 12149
+537 12051
+538 12139
+539 12050
+540 11961
+541 12137
+542 11990
+543 12123
+544 12155
+545 12066
+546 12060
+547 11807
+548 12115
+549 12057
+550 12062
+551 12136
+552 12014
+553 11955
+554 12121
+555 12065
+556 12117
+557 12107
+558 12139
+559 12135
+560 11835
+561 12150
+562 12124
+563 11744
+564 11818
+565 12079
+566 12117
+567 12002
+568 12113
+569 11952
+570 12024
+571 12153
+572 12139
+573 12149
+574 11802
+575 12047
+576 12153
+577 11989
+578 12124
+579 11957
+580 12150
+581 12021
+582 12013
+583 11967
+584 12130
+585 12121
+586 12071
+587 12059
+588 12002
+589 12131
+590 11810
+591 12146
+592 12008
+593 12044
+594 12146
+595 12058
+596 12064
+597 11954
+598 12087
+599 12131
+600 12146
+601 12153
+602 12065
+603 11899
+604 12079
+605 12081
+606 12131
+607 11869
+608 12085
+609 12106
+610 12069
+611 12114
+612 11970
+613 11760
+614 11993
+615 12137
+616 12154
+617 12062
+618 12140
+619 12095
+620 11877
+621 11849
+622 12084
+623 12035
+624 12076
+625 11831
+626 12080
+627 11810
+628 12141
+629 12149
+630 11843
+631 12146
+632 12048
+633 12050
+634 12155
+635 12046
+636 12013
+637 12138
+638 12133
+639 11604
+640 12143
+641 12110
+642 11828
+643 11976
+644 11897
+645 12050
+646 12067
+647 12151
+648 12062
+649 12065
+650 12127
+651 11850
+652 12144
+653 12016
+654 11960
+655 12139
+656 12151
+657 12125
+658 12144
+659 11980
+660 12147
+661 12065
+662 12124
+663 12142
+664 11949
+665 12072
+666 11633
+667 12046
+668 12150
+669 12042
+670 12085
+671 12112
+672 11970
+673 12027
+674 11869
+675 11979
+676 12151
+677 12126
+678 12157
+679 11764
+680 11943
+681 12145
+682 12112
+683 12125
+684 12152
+685 11901
+686 11917
+687 12101
+688 11966
+689 12103
+690 12055
+691 12149
+692 12138
+693 11930
+694 12072
+695 12138
+696 12142
+697 12131
+698 11854
+699 11819
+700 12038
+701 12070
+702 12132
+703 12155
+704 12151
+705 12087
+706 12115
+707 12055
+708 12151
+709 12153
+710 12084
+711 12088
+712 11932
+713 12090
+714 11977
+715 12110
+716 12095
+717 11910
+718 12140
+719 12138
+720 11949
+721 12137
+722 11604
+723 11711
+724 11985
+725 11979
+726 12045
+727 11604
+728 12101
+729 12133
+730 12126
+731 12026
+732 12003
+733 12146
+734 11862
+735 12134
+736 11891
+737 12141
+738 12153
+739 12117
+740 11972
+741 11821
+742 12153
+743 11958
+744 11996
+745 12118
+746 12081
+747 12050
+748 12137
+749 12090
+750 12107
+751 11815
+752 12106
+753 11852
+754 12090
+755 12035
+756 12074
+757 12044
+758 12150
+759 11980
+760 12139
+761 11970
+762 12153
+763 12039
+764 12061
+765 12150
+766 12045
+767 12134
+768 11999
+769 12032
+770 11701
+771 11933
+772 12127
+773 12144
+774 12130
+775 11897
+776 12153
+777 11732
+778 12115
+779 11940
+780 11918
+781 12118
+782 12157
+783 11745
+784 12009
+785 12118
+786 12045
+787 11838
+788 12122
+789 11950
+790 11957
+791 12125
+792 12093
+793 12068
+794 11926
+795 11980
+796 12055
+797 12115
+798 11604
+799 12131
+800 11866
+801 12087
+802 11981
+803 12124
+804 12144
+805 11928
+806 12059
+807 12001
+808 12050
+809 12131
+810 11958
+811 12013
+812 11913
+813 12050
+814 12020
+815 12149
+816 12042
+817 12153
+818 12075
+819 11647
+820 12146
+821 12117
+822 12138
+823 12051
+824 12152
+825 11985
+826 12121
+827 11980
+828 11946
+829 12131
+830 11714
+831 12148
+832 11775
+833 12066
+834 12154
+835 12014
+836 12149
+837 11957
+838 12108
+839 12110
+840 12015
+841 11879
+842 12118
+843 11934
+844 12055
+845 12003
+846 12063
+847 12043
+848 12085
+849 12075
+850 12085
+851 12151
+852 12073
+853 11681
+854 12054
+855 12131
+856 12151
+857 11987
+858 12147
+859 12002
+860 12139
+861 12081
+862 12007
+863 12154
+864 12154
+865 12055
+866 12141
+867 12103
+868 12138
+869 12094
+870 12059
+871 11994
+872 12003
+873 12153
+874 12011
+875 12057
+876 12089
+877 12111
+878 12047
+879 12037
+880 11959
+881 12090
+882 12010
+883 12150
+884 11905
+885 12090
+886 12150
+887 12116
+888 12146
+889 12030
+890 12155
+891 12112
+892 12138
+893 11976
+894 12154
+895 11732
+896 11843
+897 12069
+898 12151
+899 11969
+900 12078
+901 12150
+902 12124
+903 11967
+904 12127
+905 12001
+906 12139
+907 12039
+908 12153
+909 12153
+910 11917
+911 12155
+912 12051
+913 12011
+914 12000
+915 12101
+916 12011
+917 12112
+918 11837
+919 12069
+920 12004
+921 11977
+922 12126
+923 11955
+924 11712
+925 12131
+926 11784
+927 12099
+928 12117
+929 12145
+930 12124
+931 12149
+932 12020
+933 12043
+934 11625
+935 11979
+936 12025
+937 11604
+938 12128
+939 11926
+940 11881
+941 11641
+942 12090
+943 12120
+944 12065
+945 12108
+946 12108
+947 11992
+948 12088
+949 12006
+950 12090
+951 12111
+952 12118
+953 12059
+954 12121
+955 12085
+956 12134
+957 12103
+958 12140
+959 12146
+960 12113
+961 12122
+962 12037
+963 12153
+964 11994
+965 11854
+966 12055
+967 12038
+968 12117
+969 12121
+970 11710
+971 12050
+972 12121
+973 12083
+974 11773
+975 12003
+976 12023
+977 12151
+978 12074
+979 11755
+980 12078
+981 12094
+982 12061
+983 12057
+984 12037
+985 12112
+986 12037
+987 12154
+988 12115
+989 12155
+990 12049
+991 11886
+992 12078
+993 12023
+994 12050
+995 12139
+996 12132
+997 11959
+998 11939
+999 12151
+&
+@target G3.S0
+@type xy
+0 12060
+1 12063
+2 12053
+3 11661
+4 12066
+5 12057
+6 12043
+7 11992
+8 11962
+9 12053
+10 12055
+11 12035
+12 12010
+13 12070
+14 11867
+15 11915
+16 12049
+17 11962
+18 12059
+19 12066
+20 12072
+21 12039
+22 12051
+23 11998
+24 11930
+25 12039
+26 12077
+27 12080
+28 11765
+29 12068
+30 11842
+31 11996
+32 12053
+33 12066
+34 12064
+35 11910
+36 12074
+37 12077
+38 12047
+39 11877
+40 11998
+41 11839
+42 12162
+43 11721
+44 12054
+45 11910
+46 12039
+47 11769
+48 12049
+49 11987
+50 11856
+51 11931
+52 12045
+53 12052
+54 11675
+55 12022
+56 11838
+57 12059
+58 11976
+59 12011
+60 11901
+61 12048
+62 11991
+63 12059
+64 12016
+65 12053
+66 12054
+67 12037
+68 12063
+69 11767
+70 11990
+71 11933
+72 11944
+73 12062
+74 12025
+75 12025
+76 11927
+77 12065
+78 11992
+79 12034
+80 12058
+81 11662
+82 12085
+83 12034
+84 12056
+85 11806
+86 12051
+87 11980
+88 12024
+89 12027
+90 11645
+91 12056
+92 11849
+93 11877
+94 12038
+95 11987
+96 12080
+97 11886
+98 12033
+99 12049
+100 12081
+101 12071
+102 11991
+103 12000
+104 12043
+105 12046
+106 12036
+107 12034
+108 12045
+109 12058
+110 11764
+111 12063
+112 11837
+113 12033
+114 12077
+115 11973
+116 12023
+117 12082
+118 12070
+119 12053
+120 11766
+121 12051
+122 12010
+123 12078
+124 11925
+125 11916
+126 12032
+127 12052
+128 12052
+129 12077
+130 12070
+131 12003
+132 12047
+133 11782
+134 11991
+135 11810
+136 12033
+137 12057
+138 11971
+139 12065
+140 12047
+141 11583
+142 11844
+143 12026
+144 12076
+145 12037
+146 12048
+147 12063
+148 11986
+149 12027
+150 12029
+151 11943
+152 12011
+153 11923
+154 11927
+155 11859
+156 12062
+157 12029
+158 11991
+159 11974
+160 12013
+161 11992
+162 11843
+163 12076
+164 11953
+165 12059
+166 11879
+167 11971
+168 12058
+169 12047
+170 11426
+171 12056
+172 12058
+173 12049
+174 12078
+175 12032
+176 11898
+177 11929
+178 11925
+179 12009
+180 11921
+181 12072
+182 12063
+183 11924
+184 12024
+185 12018
+186 11831
+187 11640
+188 11963
+189 11923
+190 12017
+191 12058
+192 11963
+193 12072
+194 12073
+195 12051
+196 11893
+197 11907
+198 11664
+199 12073
+200 12050
+201 12041
+202 11979
+203 11945
+204 12027
+205 12070
+206 12047
+207 12066
+208 12047
+209 12025
+210 11952
+211 11852
+212 11833
+213 11891
+214 12072
+215 11748
+216 11758
+217 12074
+218 12080
+219 11543
+220 11611
+221 11849
+222 12074
+223 11929
+224 11744
+225 11971
+226 11810
+227 12069
+228 11819
+229 11865
+230 12065
+231 12077
+232 12057
+233 11775
+234 11858
+235 12074
+236 12052
+237 12052
+238 12020
+239 11872
+240 12071
+241 12054
+242 11928
+243 11950
+244 12034
+245 11895
+246 11975
+247 12039
+248 11593
+249 12070
+250 11926
+251 12094
+252 12054
+253 11951
+254 12065
+255 12052
+256 12036
+257 12055
+258 12053
+259 12085
+260 12042
+261 11958
+262 11957
+263 11869
+264 11939
+265 11544
+266 12057
+267 12071
+268 11766
+269 11953
+270 12076
+271 11987
+272 12090
+273 12016
+274 12061
+275 11961
+276 11967
+277 11882
+278 12016
+279 12027
+280 11863
+281 12019
+282 12048
+283 11932
+284 11952
+285 12040
+286 11820
+287 12067
+288 11942
+289 12072
+290 11978
+291 11975
+292 12056
+293 12049
+294 11599
+295 12003
+296 12058
+297 12038
+298 11662
+299 12035
+300 11972
+301 12057
+302 12028
+303 11929
+304 12071
+305 12085
+306 12081
+307 11894
+308 12076
+309 12040
+310 11419
+311 12050
+312 12068
+313 12084
+314 12066
+315 11963
+316 11998
+317 11956
+318 12078
+319 11849
+320 12007
+321 12038
+322 12058
+323 12043
+324 12059
+325 12012
+326 12052
+327 11926
+328 12062
+329 12018
+330 12064
+331 11424
+332 11987
+333 12062
+334 12052
+335 12069
+336 12057
+337 11983
+338 12043
+339 12035
+340 11935
+341 12015
+342 11884
+343 11834
+344 11976
+345 11907
+346 11816
+347 12057
+348 12004
+349 12022
+350 12051
+351 11830
+352 12030
+353 12006
+354 11966
+355 11997
+356 12059
+357 12088
+358 12060
+359 12036
+360 11914
+361 11766
+362 12000
+363 12068
+364 12037
+365 11807
+366 11812
+367 11979
+368 12008
+369 12038
+370 12087
+371 12056
+372 12021
+373 11718
+374 12042
+375 12036
+376 11912
+377 11679
+378 12088
+379 12076
+380 11737
+381 12057
+382 11786
+383 12012
+384 12072
+385 12066
+386 12036
+387 12046
+388 12001
+389 11994
+390 11914
+391 11918
+392 11875
+393 12022
+394 12059
+395 12028
+396 12065
+397 11957
+398 11914
+399 12068
+400 12063
+401 11978
+402 12022
+403 11994
+404 11994
+405 12058
+406 12040
+407 11928
+408 12089
+409 11962
+410 11897
+411 12055
+412 12078
+413 12043
+414 12042
+415 11968
+416 11872
+417 12082
+418 11969
+419 12061
+420 12075
+421 11744
+422 12043
+423 12061
+424 12039
+425 12048
+426 12070
+427 11971
+428 11866
+429 12065
+430 12029
+431 12073
+432 12047
+433 11919
+434 12064
+435 11934
+436 12052
+437 12024
+438 11923
+439 12053
+440 11800
+441 12049
+442 11860
+443 12061
+444 11975
+445 12033
+446 12042
+447 12037
+448 11998
+449 11955
+450 12047
+451 11980
+452 11961
+453 12063
+454 12044
+455 12071
+456 11896
+457 12056
+458 11976
+459 11955
+460 12046
+461 12049
+462 11999
+463 12005
+464 12061
+465 11906
+466 11907
+467 12038
+468 12039
+469 12016
+470 11972
+471 12075
+472 12000
+473 12032
+474 12018
+475 11994
+476 12068
+477 11982
+478 12045
+479 11860
+480 11926
+481 12058
+482 12055
+483 11869
+484 11885
+485 12056
+486 12045
+487 11926
+488 12061
+489 12069
+490 11996
+491 11907
+492 11879
+493 12023
+494 12070
+495 12025
+496 12052
+497 11661
+498 12071
+499 12070
+500 11786
+501 12052
+502 12034
+503 11809
+504 11826
+505 11830
+506 12017
+507 11931
+508 12055
+509 11960
+510 11910
+511 11901
+512 12057
+513 11742
+514 11965
+515 12059
+516 12060
+517 12059
+518 11920
+519 12070
+520 12029
+521 12045
+522 12033
+523 12078
+524 11833
+525 11850
+526 12020
+527 12059
+528 11893
+529 12061
+530 12063
+531 12054
+532 12013
+533 12065
+534 12082
+535 12075
+536 12028
+537 11952
+538 12026
+539 12021
+540 12057
+541 12061
+542 12036
+543 11934
+544 11878
+545 11875
+546 12069
+547 11746
+548 11873
+549 12007
+550 11832
+551 12060
+552 12055
+553 11946
+554 12036
+555 11980
+556 12012
+557 11844
+558 12059
+559 11923
+560 12047
+561 11705
+562 12058
+563 12068
+564 11871
+565 12060
+566 11986
+567 12037
+568 12036
+569 12026
+570 12022
+571 11931
+572 12032
+573 12060
+574 11958
+575 11609
+576 12059
+577 11962
+578 12070
+579 11837
+580 11954
+581 12023
+582 12007
+583 12035
+584 12062
+585 11971
+586 11645
+587 11938
+588 12067
+589 12054
+590 12073
+591 11836
+592 12056
+593 12082
+594 12049
+595 12051
+596 11419
+597 11992
+598 11778
+599 11847
+600 12057
+601 11996
+602 12037
+603 12058
+604 11922
+605 12045
+606 12050
+607 12037
+608 11870
+609 12056
+610 12067
+611 11952
+612 11994
+613 11812
+614 11926
+615 11960
+616 11802
+617 11845
+618 11926
+619 11968
+620 12052
+621 12041
+622 11987
+623 11947
+624 11921
+625 11722
+626 11927
+627 11836
+628 11925
+629 11999
+630 11837
+631 12062
+632 12023
+633 12069
+634 12047
+635 11686
+636 12066
+637 11490
+638 12079
+639 12079
+640 11997
+641 12068
+642 12002
+643 12061
+644 11836
+645 12018
+646 12075
+647 11923
+648 12061
+649 12035
+650 11861
+651 11976
+652 12003
+653 11719
+654 12050
+655 12049
+656 12051
+657 11625
+658 11932
+659 11991
+660 12008
+661 11839
+662 12042
+663 12080
+664 12056
+665 11789
+666 12040
+667 12061
+668 11996
+669 11877
+670 11814
+671 11896
+672 11842
+673 11990
+674 12070
+675 11962
+676 12067
+677 11962
+678 11922
+679 12016
+680 12042
+681 11880
+682 12011
+683 11863
+684 12061
+685 12051
+686 11994
+687 12007
+688 12053
+689 11767
+690 11869
+691 11805
+692 12008
+693 12041
+694 11444
+695 12061
+696 12026
+697 11978
+698 11808
+699 12057
+700 11972
+701 11963
+702 12026
+703 11753
+704 12070
+705 12024
+706 12069
+707 11959
+708 11823
+709 11860
+710 11570
+711 11789
+712 11421
+713 12040
+714 11918
+715 11901
+716 12053
+717 12054
+718 12015
+719 12059
+720 11781
+721 11993
+722 11965
+723 12074
+724 12068
+725 11995
+726 11997
+727 12081
+728 12049
+729 11502
+730 11829
+731 12047
+732 11967
+733 12061
+734 12042
+735 11911
+736 12003
+737 12081
+738 12057
+739 11964
+740 12064
+741 11851
+742 11427
+743 12062
+744 12035
+745 12031
+746 12053
+747 12058
+748 12052
+749 12025
+750 12054
+751 12067
+752 11998
+753 11997
+754 11600
+755 11859
+756 11821
+757 12063
+758 11969
+759 12042
+760 11826
+761 11419
+762 11734
+763 11957
+764 12064
+765 12034
+766 12052
+767 11875
+768 12056
+769 11977
+770 11883
+771 12027
+772 12015
+773 12071
+774 12054
+775 12052
+776 12060
+777 11888
+778 12070
+779 11913
+780 11917
+781 12062
+782 11595
+783 11952
+784 11796
+785 11922
+786 12071
+787 11424
+788 11893
+789 12008
+790 12042
+791 11810
+792 11862
+793 12043
+794 11994
+795 11607
+796 11810
+797 12041
+798 12022
+799 12068
+800 11928
+801 11831
+802 11807
+803 11863
+804 12058
+805 12013
+806 11981
+807 11417
+808 11996
+809 11934
+810 11962
+811 11921
+812 12006
+813 12081
+814 12055
+815 11998
+816 12021
+817 11905
+818 11891
+819 11899
+820 12077
+821 11993
+822 12055
+823 11939
+824 12046
+825 12072
+826 12015
+827 12058
+828 12060
+829 12017
+830 12074
+831 11792
+832 12058
+833 12036
+834 11745
+835 12033
+836 11932
+837 11945
+838 12054
+839 12028
+840 11985
+841 11862
+842 12010
+843 12054
+844 12048
+845 12073
+846 12066
+847 11949
+848 12049
+849 11951
+850 12032
+851 12027
+852 11996
+853 11970
+854 12047
+855 12052
+856 12008
+857 12003
+858 11883
+859 11991
+860 11919
+861 12027
+862 11925
+863 11839
+864 11884
+865 11872
+866 11878
+867 11776
+868 11991
+869 11844
+870 12052
+871 11974
+872 11990
+873 12050
+874 12063
+875 11856
+876 12046
+877 11846
+878 12054
+879 12078
+880 12065
+881 11954
+882 12027
+883 12053
+884 12038
+885 12069
+886 11952
+887 12077
+888 12043
+889 11965
+890 11934
+891 11829
+892 12074
+893 12037
+894 11845
+895 12030
+896 12054
+897 12058
+898 11904
+899 12070
+900 11830
+901 12073
+902 12069
+903 11779
+904 12021
+905 12059
+906 11837
+907 12041
+908 11808
+909 11673
+910 12060
+911 11888
+912 11972
+913 12047
+914 12007
+915 12059
+916 12017
+917 11971
+918 11973
+919 12075
+920 12056
+921 12058
+922 11991
+923 12082
+924 11969
+925 12007
+926 12010
+927 12065
+928 11756
+929 12009
+930 11588
+931 11979
+932 11980
+933 11694
+934 12068
+935 11886
+936 12041
+937 11807
+938 11983
+939 12032
+940 12039
+941 12026
+942 11969
+943 12013
+944 12060
+945 12054
+946 11730
+947 11882
+948 12078
+949 12005
+950 12009
+951 11926
+952 11754
+953 12054
+954 12013
+955 12043
+956 11995
+957 11628
+958 12055
+959 12003
+960 12056
+961 12061
+962 11639
+963 11885
+964 12068
+965 12078
+966 11911
+967 12001
+968 12041
+969 11807
+970 12028
+971 12020
+972 12070
+973 12032
+974 12072
+975 11966
+976 11945
+977 12061
+978 12015
+979 11951
+980 12050
+981 12027
+982 11962
+983 12058
+984 11999
+985 11911
+986 12053
+987 12021
+988 11767
+989 12079
+990 12049
+991 12059
+992 12057
+993 11839
+994 12077
+995 11924
+996 12058
+997 11933
+998 12037
+999 12081
+&
