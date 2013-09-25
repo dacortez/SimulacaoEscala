@@ -14,7 +14,11 @@ public class Main {
 			//machinesOccupation(10000, 1000, 'U', 0.00);
 			//machinesOccupation(10000, 1000, 'U', 0.95);
 			//machinesOccupation(10000, 1000, 'N', 0.00);
-			machinesOccupation(10000, 1000, 'N', 0.95);
+			//machinesOccupation(10000, 1000, 'N', 0.95);
+			//machinesOccupationOneYear(10000, 1000, 'U', 0.00);
+			//machinesOccupationOneYear(10000, 1000, 'U', 0.95);
+			//machinesOccupationOneYear(10000, 1000, 'N', 0.00);
+			machinesOccupationOneYear(10000, 1000, 'N', 0.95);
 		}
 		catch (Exception e) {
 			System.err.println(e.getMessage());
@@ -80,5 +84,18 @@ public class Main {
 		Simulator sim = new Simulator(totalJobs, totalMachines, kind, rejectionProbability);
 		sim.simulate();
 		sim.printMachinesOccupation();;
+	}
+	
+	public static void machinesOccupationOneYear(
+			int totalJobs, 
+			int totalMachines, 
+			char kind,
+			double rejectionProbability
+		) throws Exception {
+		for (int mounth = 1; mounth <= 12; mounth++) {
+			Simulator sim = new Simulator(totalJobs, totalMachines, kind, rejectionProbability);
+			sim.simulate();
+			sim.printMachinesOccupation("data/machines_" + mounth + ".dat");
+		}
 	}
 }

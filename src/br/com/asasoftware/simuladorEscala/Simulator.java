@@ -1,5 +1,7 @@
 package br.com.asasoftware.simuladorEscala;
 
+import java.io.FileNotFoundException;
+import java.io.PrintStream;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -158,6 +160,19 @@ public class Simulator {
 		System.out.println("ocp");
 		for (Machine machine: sortedMachines)
 			System.out.println(machine.getOccupation());
+	}
+	
+	public void printMachinesOccupation(String file) {
+		PrintStream ps;
+		try {
+			ps = new PrintStream(file);
+			List<Machine> sortedMachines = getMachinesSortedById();
+			ps.println("ocp");
+			for (Machine machine: sortedMachines)
+				ps.println(machine.getOccupation());
+		} catch (FileNotFoundException e) {
+			System.err.println("Arquivo n‹o encontrado.");
+		}	
 	}
 	
 	private List<Machine> getMachinesSortedById() {

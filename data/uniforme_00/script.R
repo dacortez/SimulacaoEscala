@@ -1,0 +1,18 @@
+m1 <- read.table("machines_1.dat", header=TRUE)
+m2 <- read.table("machines_2.dat", header=TRUE)
+m3 <- read.table("machines_3.dat", header=TRUE)
+m4 <- read.table("machines_4.dat", header=TRUE)
+m5 <- read.table("machines_5.dat", header=TRUE)
+m6 <- read.table("machines_6.dat", header=TRUE)
+m7 <- read.table("machines_7.dat", header=TRUE)
+m8 <- read.table("machines_8.dat", header=TRUE)
+m9 <- read.table("machines_9.dat", header=TRUE)
+m10 <- read.table("machines_10.dat", header=TRUE)
+m11 <- read.table("machines_11.dat", header=TRUE)
+m12 <- read.table("machines_12.dat", header=TRUE)
+x <- m1$ocp + m2$ocp + m3$ocp + m4$ocp + m5$ocp + m6$ocp + m7$ocp + m8$ocp + m9$ocp + m10$ocp + m11$ocp + m12$ocp
+y <- x/12
+disp <- sqrt(var(y))/mean(y)
+write(y, "medias.dat", 1)
+hist(y, main="Ocupação Média das Máquinas - Distribuição Uniforme", xlab="Minutos", ylab="Frequência", nclass=50)
+mtext("Máquinas = 1000 | Tarefas = 10000 | Rejeição = 0.00", side=3)
