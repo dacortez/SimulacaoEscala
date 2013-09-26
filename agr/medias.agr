@@ -54,16 +54,16 @@
 @timestamp rot 0
 @timestamp font 0
 @timestamp char size 1.000000
-@timestamp def "Wed Sep 25 13:18:08 2013"
+@timestamp def "Wed Sep 25 20:58:35 2013"
 @with string
 @    string on
 @    string loctype view
-@    string 0.486519607843, 0.905637254902
+@    string 0.435049019608, 0.914215686275
 @    string color 1
 @    string rot 0
 @    string font 0
 @    string just 0
-@    string char size 1.000000
+@    string char size 1.200000
 @    string def "Ocupa\#{e7}\#{e3}o M\#{e9}dia das M\#{e1}quinas"
 @with string
 @    string on
