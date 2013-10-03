@@ -14,5 +14,5 @@ x <- m1$ocp + m2$ocp + m3$ocp + m4$ocp + m5$ocp + m6$ocp + m7$ocp + m8$ocp + m9$
 y <- x/12
 disp <- sqrt(var(y))/mean(y)
 write(y, "medias.dat", 1)
-hist(y, main="Ocupação Média das Máquinas - Distribuição Uniforme", xlab="Minutos", ylab="Frequência", nclass=50)
+hist(y, main="Ocupação Média das Máquinas - Distribuição Uniforme", xlab="Minutos", ylab="Frequência", nclass=25)
 mtext("Máquinas = 1000 | Tarefas = 10000 | Rejeição = 0.00", side=3)
